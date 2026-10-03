@@ -1,0 +1,605 @@
+{
+ "seed": 7,
+ "weights": {
+  "catboost": 0.7,
+  "logreg": 0.3
+ },
+ "data_quality": {
+  "train_rows_raw": 12029,
+  "train_rows_unique_claims": 11348,
+  "duplicate_rows_removed": 681,
+  "test_rows_raw": 2252,
+  "test_rows_unique_claims": 2252,
+  "injected_or_unrecognised_train_description_rows": 5,
+  "injected_ids_train_description": [
+   "WC705747",
+   "WC707312",
+   "WC707367",
+   "WC707647"
+  ],
+  "injected_or_unrecognised_train_note_rows": 0,
+  "injected_or_unrecognised_test_description_rows": 0,
+  "injected_or_unrecognised_test_note_rows": 0,
+  "undecided_blank_labels": 202,
+  "decided_claims": 11146,
+  "frauds": 141,
+  "fraud_rate": 0.012650278126682218,
+  "legacy_rows_decided": 4606,
+  "claims_before_partner_onboarding_train": 0,
+  "claims_before_partner_onboarding_test": 0,
+  "test_partners_not_in_train": 14,
+  "test_rows_unseen_partner": 81,
+  "test_date_range": [
+   "2026-07-01 00:41:00",
+   "2026-09-30 23:46:00"
+  ]
+ },
+ "regime": {
+  "pre_small": [
+   5928,
+   32
+  ],
+  "pre_large": [
+   3787,
+   73
+  ],
+  "post_small": [
+   1091,
+   35
+  ],
+  "post_large": [
+   340,
+   1
+  ],
+  "near_2000": [
+   265,
+   10
+  ],
+  "small_post_inspected_share": 0.005342831700801425,
+  "small_pre_inspected_share": 0.9289744440756721,
+  "post_may_fraud_amount_mean": 1864.5277777777778,
+  "post_may_fraud_amount_median": 1416.0,
+  "post_may_fraud_total_rs": 67123.0,
+  "post_may_months": 2
+ },
+ "partners": {
+  "partners_total": 380,
+  "new_partners_listed": 60,
+  "new_partners_onboarded_after_train_end": 11,
+  "new_with_labelled_claims": 46,
+  "new_with_any_fraud": 8,
+  "old_with_labelled_claims": 320,
+  "old_with_any_fraud": 43,
+  "fraud_rate_new": 0.07068607068607069,
+  "fraud_rate_old": 0.010032817627754336,
+  "post_may_small_top5": [
+   {
+    "partner_id": "SP3160",
+    "claims": 12,
+    "frauds": 10
+   },
+   {
+    "partner_id": "SP3232",
+    "claims": 10,
+    "frauds": 7
+   },
+   {
+    "partner_id": "SP3318",
+    "claims": 10,
+    "frauds": 5
+   },
+   {
+    "partner_id": "SP3129",
+    "claims": 9,
+    "frauds": 4
+   },
+   {
+    "partner_id": "SP3319",
+    "claims": 7,
+    "frauds": 3
+   }
+  ],
+  "post_may_small_top5_share_of_fraud": 0.8285714285714286,
+  "top12_partner_fraud_share": 0.6808510638297872,
+  "top5_onboarded": {
+   "SP3160": "2025-12-27",
+   "SP3232": "2025-11-26",
+   "SP3318": "2025-12-06",
+   "SP3129": "2026-01-19",
+   "SP3319": "2026-02-11"
+  }
+ },
+ "eval_pre_regime_Feb_Apr": {
+  "rand": {
+   "frauds_in_queue": 2,
+   "reviews": 120,
+   "precision": 0.016666666666666666,
+   "fraud_rupees_caught": 8292.0,
+   "false_holds": 118,
+   "net_rs_goodwill_only": -36548.0,
+   "net_rs_goodwill_and_contact": -67748.0,
+   "net_rs_per_review_goodwill_and_contact": -564.5666666666667,
+   "roc_auc": 0.4387295713845205,
+   "pr_auc": 0.012388747305581638,
+   "positives": 23,
+   "claims": 2138
+  },
+  "rules": {
+   "frauds_in_queue": 9,
+   "reviews": 120,
+   "precision": 0.075,
+   "fraud_rupees_caught": 64038.0,
+   "false_holds": 111,
+   "net_rs_goodwill_only": 21858.0,
+   "net_rs_goodwill_and_contact": -9342.0,
+   "net_rs_per_review_goodwill_and_contact": -77.85,
+   "roc_auc": 0.7261486278137527,
+   "pr_auc": 0.3229438961412667,
+   "positives": 23,
+   "claims": 2138
+  },
+  "lr": {
+   "frauds_in_queue": 15,
+   "reviews": 120,
+   "precision": 0.125,
+   "fraud_rupees_caught": 118360.0,
+   "false_holds": 105,
+   "net_rs_goodwill_only": 78460.0,
+   "net_rs_goodwill_and_contact": 47260.0,
+   "net_rs_per_review_goodwill_and_contact": 393.8333333333333,
+   "roc_auc": 0.818419159214719,
+   "pr_auc": 0.5424289478183031,
+   "positives": 23,
+   "claims": 2138
+  },
+  "cb": {
+   "frauds_in_queue": 15,
+   "reviews": 120,
+   "precision": 0.125,
+   "fraud_rupees_caught": 118360.0,
+   "false_holds": 105,
+   "net_rs_goodwill_only": 78460.0,
+   "net_rs_goodwill_and_contact": 47260.0,
+   "net_rs_per_review_goodwill_and_contact": 393.8333333333333,
+   "roc_auc": 0.8448967005858773,
+   "pr_auc": 0.6064152213342349,
+   "positives": 23,
+   "claims": 2138
+  },
+  "final": {
+   "frauds_in_queue": 15,
+   "reviews": 120,
+   "precision": 0.125,
+   "fraud_rupees_caught": 118360.0,
+   "false_holds": 105,
+   "net_rs_goodwill_only": 78460.0,
+   "net_rs_goodwill_and_contact": 47260.0,
+   "net_rs_per_review_goodwill_and_contact": 393.8333333333333,
+   "roc_auc": 0.8322951999177717,
+   "pr_auc": 0.6001996482166876,
+   "positives": 23,
+   "claims": 2138
+  },
+  "ev_ranked": {
+   "frauds_in_queue": 15,
+   "reviews": 120,
+   "precision": 0.125,
+   "fraud_rupees_caught": 118360.0,
+   "false_holds": 105,
+   "net_rs_goodwill_only": 78460.0,
+   "net_rs_goodwill_and_contact": 47260.0,
+   "net_rs_per_review_goodwill_and_contact": 393.8333333333333,
+   "roc_auc": 0.8464590399835543,
+   "pr_auc": 0.5186289813563999,
+   "positives": 23,
+   "claims": 2138
+  },
+  "bootstrap_final": {
+   "precision_ci": [
+    0.03333333333333333,
+    0.24166666666666667
+   ],
+   "rupees_caught_ci": [
+    26658.600000000002,
+    223180.59999999995
+   ],
+   "roc_auc_ci": [
+    0.6570859615555409,
+    0.9352628180296404
+   ]
+  },
+  "accuracy_trap_final": {
+   "accuracy_predict_nobody": 0.989242282507016,
+   "accuracy_top40_flagged": 0.9471468662301216,
+   "fraud_rate": 0.010757717492984098
+  },
+  "random_expected_precision": 0.010757717492984098,
+  "lift_vs_expected_random": 11.619565217391303
+ },
+ "eval_May_Jun": {
+  "rand": {
+   "frauds_in_queue": 1,
+   "reviews": 80,
+   "precision": 0.0125,
+   "fraud_rupees_caught": 1426.0,
+   "false_holds": 79,
+   "net_rs_goodwill_only": -28594.0,
+   "net_rs_goodwill_and_contact": -49394.0,
+   "net_rs_per_review_goodwill_and_contact": -617.425,
+   "roc_auc": 0.5268618080446037,
+   "pr_auc": 0.02613443093562299,
+   "positives": 36,
+   "claims": 1431
+  },
+  "rules": {
+   "frauds_in_queue": 15,
+   "reviews": 80,
+   "precision": 0.1875,
+   "fraud_rupees_caught": 22887.0,
+   "false_holds": 65,
+   "net_rs_goodwill_only": -1813.0,
+   "net_rs_goodwill_and_contact": -22613.0,
+   "net_rs_per_review_goodwill_and_contact": -282.6625,
+   "roc_auc": 0.8290023894862605,
+   "pr_auc": 0.20089883779212822,
+   "positives": 36,
+   "claims": 1431
+  },
+  "lr": {
+   "frauds_in_queue": 6,
+   "reviews": 80,
+   "precision": 0.075,
+   "fraud_rupees_caught": 9922.0,
+   "false_holds": 74,
+   "net_rs_goodwill_only": -18198.0,
+   "net_rs_goodwill_and_contact": -38998.0,
+   "net_rs_per_review_goodwill_and_contact": -487.475,
+   "roc_auc": 0.6061927518916767,
+   "pr_auc": 0.09605642047492961,
+   "positives": 36,
+   "claims": 1431
+  },
+  "cb": {
+   "frauds_in_queue": 17,
+   "reviews": 80,
+   "precision": 0.2125,
+   "fraud_rupees_caught": 23070.0,
+   "false_holds": 63,
+   "net_rs_goodwill_only": -870.0,
+   "net_rs_goodwill_and_contact": -21670.0,
+   "net_rs_per_review_goodwill_and_contact": -270.875,
+   "roc_auc": 0.6890282755874153,
+   "pr_auc": 0.2896741714053957,
+   "positives": 36,
+   "claims": 1431
+  },
+  "final": {
+   "frauds_in_queue": 15,
+   "reviews": 80,
+   "precision": 0.1875,
+   "fraud_rupees_caught": 21272.0,
+   "false_holds": 65,
+   "net_rs_goodwill_only": -3428.0,
+   "net_rs_goodwill_and_contact": -24228.0,
+   "net_rs_per_review_goodwill_and_contact": -302.85,
+   "roc_auc": 0.6461369972122659,
+   "pr_auc": 0.23952329823802126,
+   "positives": 36,
+   "claims": 1431
+  },
+  "ev_ranked": {
+   "frauds_in_queue": 14,
+   "reviews": 80,
+   "precision": 0.175,
+   "fraud_rupees_caught": 20081.0,
+   "false_holds": 66,
+   "net_rs_goodwill_only": -4999.0,
+   "net_rs_goodwill_and_contact": -25799.0,
+   "net_rs_per_review_goodwill_and_contact": -322.4875,
+   "roc_auc": 0.6636997212266029,
+   "pr_auc": 0.16560951819714895,
+   "positives": 36,
+   "claims": 1431
+  },
+  "bootstrap_final": {
+   "precision_ci": [
+    0.0375,
+    0.35
+   ],
+   "rupees_caught_ci": [
+    3573.0,
+    40410.075
+   ],
+   "roc_auc_ci": [
+    0.5066168172726606,
+    0.7714725469664931
+   ]
+  },
+  "accuracy_trap_final": {
+   "accuracy_predict_nobody": 0.9748427672955975,
+   "accuracy_top40_flagged": 0.9399021663172606,
+   "fraud_rate": 0.025157232704402517
+  },
+  "random_expected_precision": 0.025157232704402517,
+  "lift_vs_expected_random": 7.453125
+ },
+ "eval_Jun": {
+  "rand": {
+   "frauds_in_queue": 1,
+   "reviews": 40,
+   "precision": 0.025,
+   "fraud_rupees_caught": 1426.0,
+   "false_holds": 39,
+   "net_rs_goodwill_only": -13394.0,
+   "net_rs_goodwill_and_contact": -23794.0,
+   "net_rs_per_review_goodwill_and_contact": -594.85,
+   "roc_auc": 0.5650560041677519,
+   "pr_auc": 0.038110699440385844,
+   "positives": 22,
+   "claims": 720
+  },
+  "rules": {
+   "frauds_in_queue": 12,
+   "reviews": 40,
+   "precision": 0.3,
+   "fraud_rupees_caught": 16902.0,
+   "false_holds": 28,
+   "net_rs_goodwill_only": 6262.0,
+   "net_rs_goodwill_and_contact": -4138.0,
+   "net_rs_per_review_goodwill_and_contact": -103.45,
+   "roc_auc": 0.8672180255274811,
+   "pr_auc": 0.3032628034540895,
+   "positives": 22,
+   "claims": 720
+  },
+  "lr": {
+   "frauds_in_queue": 6,
+   "reviews": 40,
+   "precision": 0.15,
+   "fraud_rupees_caught": 9922.0,
+   "false_holds": 34,
+   "net_rs_goodwill_only": -2998.0,
+   "net_rs_goodwill_and_contact": -13398.0,
+   "net_rs_per_review_goodwill_and_contact": -334.95,
+   "roc_auc": 0.8159025787965616,
+   "pr_auc": 0.16267780433352694,
+   "positives": 22,
+   "claims": 720
+  },
+  "cb": {
+   "frauds_in_queue": 17,
+   "reviews": 40,
+   "precision": 0.425,
+   "fraud_rupees_caught": 23070.0,
+   "false_holds": 23,
+   "net_rs_goodwill_only": 14330.0,
+   "net_rs_goodwill_and_contact": 3930.0,
+   "net_rs_per_review_goodwill_and_contact": 98.25,
+   "roc_auc": 0.932078666319354,
+   "pr_auc": 0.5790218622581006,
+   "positives": 22,
+   "claims": 720
+  },
+  "final": {
+   "frauds_in_queue": 15,
+   "reviews": 40,
+   "precision": 0.375,
+   "fraud_rupees_caught": 21272.0,
+   "false_holds": 25,
+   "net_rs_goodwill_only": 11772.0,
+   "net_rs_goodwill_and_contact": 1372.0,
+   "net_rs_per_review_goodwill_and_contact": 34.3,
+   "roc_auc": 0.9244594946600677,
+   "pr_auc": 0.5116473658215783,
+   "positives": 22,
+   "claims": 720
+  },
+  "ev_ranked": {
+   "frauds_in_queue": 14,
+   "reviews": 40,
+   "precision": 0.35,
+   "fraud_rupees_caught": 20081.0,
+   "false_holds": 26,
+   "net_rs_goodwill_only": 10201.0,
+   "net_rs_goodwill_and_contact": -199.0,
+   "net_rs_per_review_goodwill_and_contact": -4.975,
+   "roc_auc": 0.9116306329773379,
+   "pr_auc": 0.35429815118090585,
+   "positives": 22,
+   "claims": 720
+  },
+  "bootstrap_final": {
+   "precision_ci": [
+    0.075,
+    0.6762499999999989
+   ],
+   "rupees_caught_ci": [
+    3971.0,
+    39776.65
+   ],
+   "roc_auc_ci": [
+    0.7871391697833634,
+    0.9810870642003059
+   ]
+  },
+  "accuracy_trap_final": {
+   "accuracy_predict_nobody": 0.9694444444444444,
+   "accuracy_top40_flagged": 0.9555555555555556,
+   "fraud_rate": 0.030555555555555555
+  },
+  "random_expected_precision": 0.030555555555555555,
+  "lift_vs_expected_random": 12.272727272727273
+ },
+ "eval_by_month": {
+  "Feb": {
+   "frauds_in_queue": 5,
+   "reviews": 40,
+   "precision": 0.125,
+   "fraud_rupees_caught": 49693.0,
+   "false_holds": 35,
+   "net_rs_goodwill_only": 36393.0,
+   "net_rs_goodwill_and_contact": 25993.0,
+   "net_rs_per_review_goodwill_and_contact": 649.825,
+   "roc_auc": 1.0,
+   "pr_auc": 1.0,
+   "positives": 5,
+   "claims": 697
+  },
+  "Mar": {
+   "frauds_in_queue": 6,
+   "reviews": 40,
+   "precision": 0.15,
+   "fraud_rupees_caught": 42284.0,
+   "false_holds": 34,
+   "net_rs_goodwill_only": 29364.0,
+   "net_rs_goodwill_and_contact": 18964.0,
+   "net_rs_per_review_goodwill_and_contact": 474.1,
+   "roc_auc": 0.8300473788781904,
+   "pr_auc": 0.6738889189499634,
+   "positives": 9,
+   "claims": 736
+  },
+  "Apr": {
+   "frauds_in_queue": 4,
+   "reviews": 40,
+   "precision": 0.1,
+   "fraud_rupees_caught": 26383.0,
+   "false_holds": 36,
+   "net_rs_goodwill_only": 12703.0,
+   "net_rs_goodwill_and_contact": 2303.0,
+   "net_rs_per_review_goodwill_and_contact": 57.575,
+   "roc_auc": 0.7674010217113665,
+   "pr_auc": 0.30292709333920137,
+   "positives": 9,
+   "claims": 705
+  },
+  "May": {
+   "frauds_in_queue": 0,
+   "reviews": 40,
+   "precision": 0.0,
+   "fraud_rupees_caught": 0.0,
+   "false_holds": 40,
+   "net_rs_goodwill_only": -15200.0,
+   "net_rs_goodwill_and_contact": -25600.0,
+   "net_rs_per_review_goodwill_and_contact": -640.0,
+   "roc_auc": 0.23970075835212132,
+   "pr_auc": 0.012770077678772581,
+   "positives": 14,
+   "claims": 711
+  },
+  "Jun": {
+   "frauds_in_queue": 15,
+   "reviews": 40,
+   "precision": 0.375,
+   "fraud_rupees_caught": 21272.0,
+   "false_holds": 25,
+   "net_rs_goodwill_only": 11772.0,
+   "net_rs_goodwill_and_contact": 1372.0,
+   "net_rs_per_review_goodwill_and_contact": 34.3,
+   "roc_auc": 0.9244594946600677,
+   "pr_auc": 0.5116473658215783,
+   "positives": 22,
+   "claims": 720
+  }
+ },
+ "model_labels": {
+  "rand": "Random",
+  "rules": "Rules baseline",
+  "lr": "Logistic regression",
+  "cb": "CatBoost (unweighted)",
+  "final": "FINAL: 0.7 CatBoost + 0.3 LogReg"
+ },
+ "unseen_partners_May_Jun": {
+  "claims": 33,
+  "frauds": 4,
+  "partners": 11
+ },
+ "ablation_Jun": {
+  "full model": {
+   "frauds_in_top40": 15,
+   "roc_auc": 0.9244594946600677
+  },
+  "no partner history": {
+   "frauds_in_top40": 9,
+   "roc_auc": 0.9184032300078145
+  },
+  "no amount features": {
+   "frauds_in_top40": 13,
+   "roc_auc": 0.9038812190674657
+  },
+  "no customer history": {
+   "frauds_in_top40": 13,
+   "roc_auc": 0.9195102891377963
+  }
+ },
+ "staleness_Jun": {
+  "snapshot_0d_old": {
+   "frauds_in_top40": 15,
+   "roc_auc": 0.9244594946600677,
+   "fraud_rupees_caught": 21272.0
+  },
+  "snapshot_30d_old": {
+   "frauds_in_top40": 17,
+   "roc_auc": 0.9266736129200313,
+   "fraud_rupees_caught": 23070.0
+  },
+  "snapshot_60d_old": {
+   "frauds_in_top40": 15,
+   "roc_auc": 0.9191846835113312,
+   "fraud_rupees_caught": 21272.0
+  }
+ },
+ "outlet_rule": {
+  "May": {
+   "claims_to_inspect": 8,
+   "frauds_inside": 0,
+   "outlets": 6,
+   "precision": 0.0,
+   "share_of_month_frauds": 0.0,
+   "fraud_rupees_inside": 0.0
+  },
+  "Jun": {
+   "claims_to_inspect": 32,
+   "frauds_inside": 10,
+   "outlets": 10,
+   "precision": 0.3125,
+   "share_of_month_frauds": 0.45454545454545453,
+   "fraud_rupees_inside": 13784.0
+  }
+ },
+ "predictions": {
+  "rows": 2252,
+  "distinct_scores": 2252,
+  "min": 0.0007560456567149142,
+  "max": 0.9644129104284165,
+  "mean": 0.02394264832737758
+ },
+ "queue": {
+  "threshold": 0.08040093253326519,
+  "bands": {
+   "critical": 0.08040093253326519,
+   "high": 0.024787953590122945,
+   "medium": 0.010507053246331102
+  },
+  "test_flags_per_month": {
+   "2026-07": 39,
+   "2026-08": 44,
+   "2026-09": 38
+  },
+  "test_top_queue_partners": {
+   "SP3118": 17,
+   "SP3286": 17,
+   "SP3160": 12,
+   "SP3129": 11,
+   "SP3319": 9,
+   "SP3318": 8,
+   "SP3232": 5,
+   "SP3300": 5
+  }
+ },
+ "test_profile": {
+  "unlabelled_claims": 2252,
+  "small_claim_share": 0.7699822380106572,
+  "inspected_share": 0.21314387211367672
+ }
+}

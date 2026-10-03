@@ -1,0 +1,66 @@
+[
+ {
+  "claim": {
+   "submitted_at": "2026-08-15 10:30",
+   "sku": "KH-AF-03",
+   "product_serial": "KH123456789",
+   "days_since_purchase": 90,
+   "claim_amount_inr": 5200,
+   "photo_attached": "Y",
+   "partner_inspected": "Y",
+   "claim_description": "motor not running",
+   "customer_prior_claims": 0,
+   "source": "crm",
+   "partner_id": "SP3033"
+  },
+  "expected_score": 0.009469845682387238
+ },
+ {
+  "claim": {
+   "submitted_at": "2026-08-15 10:30",
+   "sku": "KH-AF-03",
+   "product_serial": "KH123456789",
+   "days_since_purchase": 180,
+   "claim_amount_inr": 1975,
+   "photo_attached": "N",
+   "partner_inspected": "N",
+   "claim_description": "motor not running",
+   "customer_prior_claims": 2,
+   "source": "crm",
+   "partner_id": "SP3160"
+  },
+  "expected_score": 0.34935023496188033
+ },
+ {
+  "claim": {
+   "submitted_at": "2026-08-15 10:30",
+   "sku": "KH-AF-03",
+   "product_serial": "KH123456789",
+   "days_since_purchase": 60,
+   "claim_amount_inr": 1450,
+   "photo_attached": "Y",
+   "partner_inspected": "N",
+   "claim_description": "motor not running",
+   "customer_prior_claims": 1,
+   "source": "crm",
+   "partner_id": "SP3160"
+  },
+  "expected_score": 0.21124806010123653
+ },
+ {
+  "claim": {
+   "submitted_at": "2026-08-15 10:30",
+   "sku": "KH-AF-03",
+   "product_serial": "KH123456789",
+   "days_since_purchase": 45,
+   "claim_amount_inr": 320,
+   "photo_attached": "Y",
+   "partner_inspected": "Y",
+   "claim_description": "motor not running",
+   "customer_prior_claims": 0,
+   "source": "crm",
+   "partner_id": "SP3006"
+  },
+  "expected_score": 0.001336335770815669
+ }
+]

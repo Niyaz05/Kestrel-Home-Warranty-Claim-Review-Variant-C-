@@ -1,0 +1,4728 @@
+{
+ "snapshot_time": "2026-06-30 23:55:00",
+ "partners": {
+  "SP3033": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-08-18",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3032": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-03-13",
+   "partner_type": "franchise"
+  },
+  "SP3265": {
+   "city": "Pune",
+   "onboarded_date": "2022-03-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3249": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-06-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3086": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-06-15",
+   "partner_type": "franchise"
+  },
+  "SP3006": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-07-20",
+   "partner_type": "freelance_technician"
+  },
+  "SP3237": {
+   "city": "Bhopal",
+   "onboarded_date": "2024-02-20",
+   "partner_type": "freelance_technician"
+  },
+  "SP3352": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-10-10",
+   "partner_type": "freelance_technician"
+  },
+  "SP3104": {
+   "city": "Lucknow",
+   "onboarded_date": "2021-07-11",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3016": {
+   "city": "Hubballi",
+   "onboarded_date": "2022-06-14",
+   "partner_type": "franchise"
+  },
+  "SP3064": {
+   "city": "Coimbatore",
+   "onboarded_date": "2021-06-08",
+   "partner_type": "freelance_technician"
+  },
+  "SP3356": {
+   "city": "Kota",
+   "onboarded_date": "2021-12-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3101": {
+   "city": "Hubballi",
+   "onboarded_date": "2021-12-08",
+   "partner_type": "franchise"
+  },
+  "SP3087": {
+   "city": "Chennai",
+   "onboarded_date": "2022-10-10",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3261": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-06-23",
+   "partner_type": "freelance_technician"
+  },
+  "SP3088": {
+   "city": "Aurangabad",
+   "onboarded_date": "2025-02-28",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3029": {
+   "city": "Aurangabad",
+   "onboarded_date": "2021-06-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3259": {
+   "city": "Mysuru",
+   "onboarded_date": "2021-12-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3266": {
+   "city": "Kota",
+   "onboarded_date": "2024-10-20",
+   "partner_type": "franchise"
+  },
+  "SP3193": {
+   "city": "Mysuru",
+   "onboarded_date": "2025-01-06",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3145": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-08-01",
+   "partner_type": "franchise"
+  },
+  "SP3018": {
+   "city": "Nagpur",
+   "onboarded_date": "2025-02-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3204": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-07-08",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3062": {
+   "city": "Nashik",
+   "onboarded_date": "2021-08-22",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3058": {
+   "city": "Lucknow",
+   "onboarded_date": "2023-11-19",
+   "partner_type": "freelance_technician"
+  },
+  "SP3197": {
+   "city": "Nashik",
+   "onboarded_date": "2023-03-01",
+   "partner_type": "franchise"
+  },
+  "SP3034": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-07-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3359": {
+   "city": "Warangal",
+   "onboarded_date": "2023-05-15",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3113": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-09-08",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3333": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-03-25",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3076": {
+   "city": "Delhi",
+   "onboarded_date": "2023-10-21",
+   "partner_type": "franchise"
+  },
+  "SP3351": {
+   "city": "Jaipur",
+   "onboarded_date": "2024-10-18",
+   "partner_type": "franchise"
+  },
+  "SP3004": {
+   "city": "Nagpur",
+   "onboarded_date": "2021-09-25",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3182": {
+   "city": "Delhi",
+   "onboarded_date": "2022-09-21",
+   "partner_type": "franchise"
+  },
+  "SP3019": {
+   "city": "Hyderabad",
+   "onboarded_date": "2023-09-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3031": {
+   "city": "Jaipur",
+   "onboarded_date": "2024-03-23",
+   "partner_type": "franchise"
+  },
+  "SP3207": {
+   "city": "Hyderabad",
+   "onboarded_date": "2022-02-23",
+   "partner_type": "franchise"
+  },
+  "SP3370": {
+   "city": "Pune",
+   "onboarded_date": "2022-10-30",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3012": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-08-16",
+   "partner_type": "franchise"
+  },
+  "SP3247": {
+   "city": "Indore",
+   "onboarded_date": "2023-01-05",
+   "partner_type": "franchise"
+  },
+  "SP3195": {
+   "city": "Pune",
+   "onboarded_date": "2021-06-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3022": {
+   "city": "Nagpur",
+   "onboarded_date": "2023-12-15",
+   "partner_type": "franchise"
+  },
+  "SP3026": {
+   "city": "Delhi",
+   "onboarded_date": "2021-12-03",
+   "partner_type": "freelance_technician"
+  },
+  "SP3155": {
+   "city": "Coimbatore",
+   "onboarded_date": "2023-10-01",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3154": {
+   "city": "Kota",
+   "onboarded_date": "2022-01-18",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3082": {
+   "city": "Jaipur",
+   "onboarded_date": "2024-08-06",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3242": {
+   "city": "Chennai",
+   "onboarded_date": "2021-12-20",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3212": {
+   "city": "Kota",
+   "onboarded_date": "2024-02-28",
+   "partner_type": "franchise"
+  },
+  "SP3192": {
+   "city": "Mumbai",
+   "onboarded_date": "2021-10-18",
+   "partner_type": "franchise"
+  },
+  "SP3350": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-02-20",
+   "partner_type": "franchise"
+  },
+  "SP3185": {
+   "city": "Warangal",
+   "onboarded_date": "2022-04-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3196": {
+   "city": "Aurangabad",
+   "onboarded_date": "2021-07-10",
+   "partner_type": "franchise"
+  },
+  "SP3372": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-04-04",
+   "partner_type": "franchise"
+  },
+  "SP3225": {
+   "city": "Coimbatore",
+   "onboarded_date": "2021-09-19",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3334": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-01-12",
+   "partner_type": "franchise"
+  },
+  "SP3122": {
+   "city": "Hubballi",
+   "onboarded_date": "2024-03-20",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3349": {
+   "city": "Warangal",
+   "onboarded_date": "2023-07-24",
+   "partner_type": "freelance_technician"
+  },
+  "SP3338": {
+   "city": "Bhopal",
+   "onboarded_date": "2024-04-13",
+   "partner_type": "franchise"
+  },
+  "SP3188": {
+   "city": "Jaipur",
+   "onboarded_date": "2021-08-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3008": {
+   "city": "Nagpur",
+   "onboarded_date": "2023-10-27",
+   "partner_type": "freelance_technician"
+  },
+  "SP3282": {
+   "city": "Warangal",
+   "onboarded_date": "2023-05-15",
+   "partner_type": "franchise"
+  },
+  "SP3329": {
+   "city": "Mumbai",
+   "onboarded_date": "2022-07-20",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3332": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-08-05",
+   "partner_type": "franchise"
+  },
+  "SP3314": {
+   "city": "Hubballi",
+   "onboarded_date": "2021-10-04",
+   "partner_type": "franchise"
+  },
+  "SP3373": {
+   "city": "Nagpur",
+   "onboarded_date": "2022-03-10",
+   "partner_type": "franchise"
+  },
+  "SP3267": {
+   "city": "Pune",
+   "onboarded_date": "2023-03-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3263": {
+   "city": "Indore",
+   "onboarded_date": "2024-09-18",
+   "partner_type": "franchise"
+  },
+  "SP3230": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-09-10",
+   "partner_type": "franchise"
+  },
+  "SP3260": {
+   "city": "Nagpur",
+   "onboarded_date": "2024-07-23",
+   "partner_type": "franchise"
+  },
+  "SP3063": {
+   "city": "Chennai",
+   "onboarded_date": "2022-02-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3253": {
+   "city": "Kota",
+   "onboarded_date": "2024-08-26",
+   "partner_type": "franchise"
+  },
+  "SP3323": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-05-25",
+   "partner_type": "franchise"
+  },
+  "SP3078": {
+   "city": "Chennai",
+   "onboarded_date": "2023-06-03",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3147": {
+   "city": "Chennai",
+   "onboarded_date": "2022-04-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3298": {
+   "city": "Mysuru",
+   "onboarded_date": "2023-02-27",
+   "partner_type": "franchise"
+  },
+  "SP3128": {
+   "city": "Lucknow",
+   "onboarded_date": "2023-11-20",
+   "partner_type": "freelance_technician"
+  },
+  "SP3040": {
+   "city": "Nashik",
+   "onboarded_date": "2023-05-20",
+   "partner_type": "franchise"
+  },
+  "SP3205": {
+   "city": "Nashik",
+   "onboarded_date": "2023-12-26",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3131": {
+   "city": "Pune",
+   "onboarded_date": "2025-01-20",
+   "partner_type": "franchise"
+  },
+  "SP3331": {
+   "city": "Chennai",
+   "onboarded_date": "2023-07-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3024": {
+   "city": "Coimbatore",
+   "onboarded_date": "2023-02-16",
+   "partner_type": "franchise"
+  },
+  "SP3151": {
+   "city": "Jaipur",
+   "onboarded_date": "2024-06-08",
+   "partner_type": "freelance_technician"
+  },
+  "SP3125": {
+   "city": "Nashik",
+   "onboarded_date": "2023-04-14",
+   "partner_type": "franchise"
+  },
+  "SP3227": {
+   "city": "Warangal",
+   "onboarded_date": "2024-12-19",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3137": {
+   "city": "Nagpur",
+   "onboarded_date": "2022-08-14",
+   "partner_type": "franchise"
+  },
+  "SP3308": {
+   "city": "Delhi",
+   "onboarded_date": "2024-11-20",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3139": {
+   "city": "Jaipur",
+   "onboarded_date": "2021-09-09",
+   "partner_type": "freelance_technician"
+  },
+  "SP3268": {
+   "city": "Nagpur",
+   "onboarded_date": "2023-03-09",
+   "partner_type": "franchise"
+  },
+  "SP3342": {
+   "city": "Nagpur",
+   "onboarded_date": "2023-08-04",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3065": {
+   "city": "Lucknow",
+   "onboarded_date": "2022-07-29",
+   "partner_type": "franchise"
+  },
+  "SP3234": {
+   "city": "Aurangabad",
+   "onboarded_date": "2024-05-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3083": {
+   "city": "Coimbatore",
+   "onboarded_date": "2023-04-20",
+   "partner_type": "franchise"
+  },
+  "SP3163": {
+   "city": "Indore",
+   "onboarded_date": "2025-01-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3358": {
+   "city": "Mumbai",
+   "onboarded_date": "2023-01-02",
+   "partner_type": "freelance_technician"
+  },
+  "SP3060": {
+   "city": "Delhi",
+   "onboarded_date": "2022-09-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3001": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-05-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3304": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-05-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3075": {
+   "city": "Kota",
+   "onboarded_date": "2023-09-10",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3290": {
+   "city": "Nagpur",
+   "onboarded_date": "2022-03-15",
+   "partner_type": "franchise"
+  },
+  "SP3276": {
+   "city": "Hubballi",
+   "onboarded_date": "2024-05-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3092": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-11-11",
+   "partner_type": "freelance_technician"
+  },
+  "SP3070": {
+   "city": "Pune",
+   "onboarded_date": "2023-07-25",
+   "partner_type": "franchise"
+  },
+  "SP3337": {
+   "city": "Hyderabad",
+   "onboarded_date": "2024-03-19",
+   "partner_type": "franchise"
+  },
+  "SP3178": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-08-25",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3325": {
+   "city": "Mumbai",
+   "onboarded_date": "2022-12-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3041": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-06-04",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3015": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-10-21",
+   "partner_type": "freelance_technician"
+  },
+  "SP3028": {
+   "city": "Bengaluru",
+   "onboarded_date": "2023-01-21",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3042": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-05-22",
+   "partner_type": "franchise"
+  },
+  "SP3175": {
+   "city": "Aurangabad",
+   "onboarded_date": "2024-10-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3367": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-08-23",
+   "partner_type": "franchise"
+  },
+  "SP3079": {
+   "city": "Indore",
+   "onboarded_date": "2023-07-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3177": {
+   "city": "Coimbatore",
+   "onboarded_date": "2022-08-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3043": {
+   "city": "Aurangabad",
+   "onboarded_date": "2021-12-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3246": {
+   "city": "Kota",
+   "onboarded_date": "2022-12-15",
+   "partner_type": "freelance_technician"
+  },
+  "SP3168": {
+   "city": "Kota",
+   "onboarded_date": "2021-08-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3258": {
+   "city": "Chennai",
+   "onboarded_date": "2022-03-22",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3306": {
+   "city": "Warangal",
+   "onboarded_date": "2024-04-26",
+   "partner_type": "freelance_technician"
+  },
+  "SP3210": {
+   "city": "Chennai",
+   "onboarded_date": "2022-10-24",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3264": {
+   "city": "Hyderabad",
+   "onboarded_date": "2024-11-30",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3303": {
+   "city": "Mysuru",
+   "onboarded_date": "2025-01-20",
+   "partner_type": "franchise"
+  },
+  "SP3106": {
+   "city": "Kota",
+   "onboarded_date": "2023-04-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3324": {
+   "city": "Hyderabad",
+   "onboarded_date": "2022-11-04",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3179": {
+   "city": "Hubballi",
+   "onboarded_date": "2021-10-05",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3327": {
+   "city": "Hyderabad",
+   "onboarded_date": "2022-01-22",
+   "partner_type": "franchise"
+  },
+  "SP3215": {
+   "city": "Aurangabad",
+   "onboarded_date": "2021-08-14",
+   "partner_type": "freelance_technician"
+  },
+  "SP3320": {
+   "city": "Pune",
+   "onboarded_date": "2023-05-10",
+   "partner_type": "franchise"
+  },
+  "SP3254": {
+   "city": "Hyderabad",
+   "onboarded_date": "2024-07-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3142": {
+   "city": "Chennai",
+   "onboarded_date": "2021-06-28",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3130": {
+   "city": "Nashik",
+   "onboarded_date": "2022-04-25",
+   "partner_type": "franchise"
+  },
+  "SP3292": {
+   "city": "Nashik",
+   "onboarded_date": "2024-01-04",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3143": {
+   "city": "Bengaluru",
+   "onboarded_date": "2022-06-10",
+   "partner_type": "franchise"
+  },
+  "SP3257": {
+   "city": "Indore",
+   "onboarded_date": "2022-08-15",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3036": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-12-24",
+   "partner_type": "franchise"
+  },
+  "SP3084": {
+   "city": "Mysuru",
+   "onboarded_date": "2023-11-12",
+   "partner_type": "franchise"
+  },
+  "SP3347": {
+   "city": "Delhi",
+   "onboarded_date": "2022-05-31",
+   "partner_type": "franchise"
+  },
+  "SP3103": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-07-27",
+   "partner_type": "franchise"
+  },
+  "SP3335": {
+   "city": "Nashik",
+   "onboarded_date": "2021-10-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3116": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-12-22",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3219": {
+   "city": "Lucknow",
+   "onboarded_date": "2025-01-17",
+   "partner_type": "franchise"
+  },
+  "SP3277": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-01-08",
+   "partner_type": "franchise"
+  },
+  "SP3159": {
+   "city": "Kota",
+   "onboarded_date": "2023-11-15",
+   "partner_type": "freelance_technician"
+  },
+  "SP3214": {
+   "city": "Coimbatore",
+   "onboarded_date": "2024-08-12",
+   "partner_type": "freelance_technician"
+  },
+  "SP3003": {
+   "city": "Indore",
+   "onboarded_date": "2024-12-15",
+   "partner_type": "freelance_technician"
+  },
+  "SP3275": {
+   "city": "Coimbatore",
+   "onboarded_date": "2022-02-19",
+   "partner_type": "freelance_technician"
+  },
+  "SP3262": {
+   "city": "Aurangabad",
+   "onboarded_date": "2023-04-27",
+   "partner_type": "freelance_technician"
+  },
+  "SP3189": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-07-20",
+   "partner_type": "franchise"
+  },
+  "SP3052": {
+   "city": "Warangal",
+   "onboarded_date": "2021-06-09",
+   "partner_type": "freelance_technician"
+  },
+  "SP3321": {
+   "city": "Delhi",
+   "onboarded_date": "2024-04-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3202": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-12-08",
+   "partner_type": "freelance_technician"
+  },
+  "SP3238": {
+   "city": "Lucknow",
+   "onboarded_date": "2023-09-23",
+   "partner_type": "freelance_technician"
+  },
+  "SP3186": {
+   "city": "Kota",
+   "onboarded_date": "2023-12-12",
+   "partner_type": "freelance_technician"
+  },
+  "SP3371": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-01-20",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3053": {
+   "city": "Aurangabad",
+   "onboarded_date": "2023-06-01",
+   "partner_type": "franchise"
+  },
+  "SP3271": {
+   "city": "Mumbai",
+   "onboarded_date": "2023-02-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3309": {
+   "city": "Kota",
+   "onboarded_date": "2022-08-08",
+   "partner_type": "franchise"
+  },
+  "SP3109": {
+   "city": "Nagpur",
+   "onboarded_date": "2021-10-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3376": {
+   "city": "Mysuru",
+   "onboarded_date": "2023-04-08",
+   "partner_type": "franchise"
+  },
+  "SP3209": {
+   "city": "Indore",
+   "onboarded_date": "2023-07-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3119": {
+   "city": "Indore",
+   "onboarded_date": "2021-11-25",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3099": {
+   "city": "Pune",
+   "onboarded_date": "2024-01-10",
+   "partner_type": "franchise"
+  },
+  "SP3144": {
+   "city": "Jaipur",
+   "onboarded_date": "2024-11-16",
+   "partner_type": "franchise"
+  },
+  "SP3222": {
+   "city": "Warangal",
+   "onboarded_date": "2024-04-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3158": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-04-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3114": {
+   "city": "Delhi",
+   "onboarded_date": "2022-02-10",
+   "partner_type": "freelance_technician"
+  },
+  "SP3132": {
+   "city": "Lucknow",
+   "onboarded_date": "2021-07-04",
+   "partner_type": "freelance_technician"
+  },
+  "SP3345": {
+   "city": "Bhopal",
+   "onboarded_date": "2022-03-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3274": {
+   "city": "Nagpur",
+   "onboarded_date": "2022-07-02",
+   "partner_type": "franchise"
+  },
+  "SP3005": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-08-30",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3080": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-12-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3056": {
+   "city": "Mysuru",
+   "onboarded_date": "2024-04-01",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3162": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-12-28",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3330": {
+   "city": "Pune",
+   "onboarded_date": "2022-03-15",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3102": {
+   "city": "Hyderabad",
+   "onboarded_date": "2024-11-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3066": {
+   "city": "Jaipur",
+   "onboarded_date": "2021-08-11",
+   "partner_type": "franchise"
+  },
+  "SP3343": {
+   "city": "Nashik",
+   "onboarded_date": "2022-01-22",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3117": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-06-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3165": {
+   "city": "Nagpur",
+   "onboarded_date": "2021-08-23",
+   "partner_type": "franchise"
+  },
+  "SP3363": {
+   "city": "Hyderabad",
+   "onboarded_date": "2023-10-30",
+   "partner_type": "freelance_technician"
+  },
+  "SP3355": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-11-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3296": {
+   "city": "Indore",
+   "onboarded_date": "2022-01-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3169": {
+   "city": "Nashik",
+   "onboarded_date": "2021-08-19",
+   "partner_type": "freelance_technician"
+  },
+  "SP3299": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-04-19",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3127": {
+   "city": "Aurangabad",
+   "onboarded_date": "2023-04-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3310": {
+   "city": "Lucknow",
+   "onboarded_date": "2025-01-15",
+   "partner_type": "franchise"
+  },
+  "SP3074": {
+   "city": "Bhopal",
+   "onboarded_date": "2025-01-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3220": {
+   "city": "Coimbatore",
+   "onboarded_date": "2021-10-19",
+   "partner_type": "freelance_technician"
+  },
+  "SP3280": {
+   "city": "Coimbatore",
+   "onboarded_date": "2022-01-03",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3341": {
+   "city": "Bengaluru",
+   "onboarded_date": "2025-01-17",
+   "partner_type": "freelance_technician"
+  },
+  "SP3200": {
+   "city": "Mumbai",
+   "onboarded_date": "2022-12-10",
+   "partner_type": "freelance_technician"
+  },
+  "SP3094": {
+   "city": "Kota",
+   "onboarded_date": "2023-09-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3134": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-09-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3108": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-02-23",
+   "partner_type": "freelance_technician"
+  },
+  "SP3289": {
+   "city": "Nagpur",
+   "onboarded_date": "2021-06-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3198": {
+   "city": "Kota",
+   "onboarded_date": "2024-06-16",
+   "partner_type": "franchise"
+  },
+  "SP3278": {
+   "city": "Bhopal",
+   "onboarded_date": "2024-01-18",
+   "partner_type": "franchise"
+  },
+  "SP3201": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-12-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3051": {
+   "city": "Bengaluru",
+   "onboarded_date": "2022-03-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3138": {
+   "city": "Indore",
+   "onboarded_date": "2022-12-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3100": {
+   "city": "Coimbatore",
+   "onboarded_date": "2024-02-09",
+   "partner_type": "franchise"
+  },
+  "SP3176": {
+   "city": "Chennai",
+   "onboarded_date": "2022-09-28",
+   "partner_type": "franchise"
+  },
+  "SP3013": {
+   "city": "Chennai",
+   "onboarded_date": "2021-07-08",
+   "partner_type": "franchise"
+  },
+  "SP3281": {
+   "city": "Bengaluru",
+   "onboarded_date": "2023-09-25",
+   "partner_type": "franchise"
+  },
+  "SP3217": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-09-14",
+   "partner_type": "freelance_technician"
+  },
+  "SP3069": {
+   "city": "Mumbai",
+   "onboarded_date": "2023-05-05",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3248": {
+   "city": "Hyderabad",
+   "onboarded_date": "2022-07-14",
+   "partner_type": "franchise"
+  },
+  "SP3361": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-03-18",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3354": {
+   "city": "Indore",
+   "onboarded_date": "2022-12-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3377": {
+   "city": "Jaipur",
+   "onboarded_date": "2024-11-11",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3166": {
+   "city": "Pune",
+   "onboarded_date": "2021-07-23",
+   "partner_type": "freelance_technician"
+  },
+  "SP3378": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-01-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3312": {
+   "city": "Delhi",
+   "onboarded_date": "2024-10-27",
+   "partner_type": "franchise"
+  },
+  "SP3379": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-08-26",
+   "partner_type": "franchise"
+  },
+  "SP3161": {
+   "city": "Warangal",
+   "onboarded_date": "2024-01-06",
+   "partner_type": "franchise"
+  },
+  "SP3047": {
+   "city": "Delhi",
+   "onboarded_date": "2023-04-14",
+   "partner_type": "freelance_technician"
+  },
+  "SP3190": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-12-10",
+   "partner_type": "franchise"
+  },
+  "SP3023": {
+   "city": "Chennai",
+   "onboarded_date": "2022-05-21",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3146": {
+   "city": "Mumbai",
+   "onboarded_date": "2023-07-28",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3317": {
+   "city": "Chennai",
+   "onboarded_date": "2022-11-11",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3089": {
+   "city": "Bengaluru",
+   "onboarded_date": "2024-06-30",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3055": {
+   "city": "Warangal",
+   "onboarded_date": "2024-07-21",
+   "partner_type": "freelance_technician"
+  },
+  "SP3067": {
+   "city": "Mysuru",
+   "onboarded_date": "2024-02-09",
+   "partner_type": "franchise"
+  },
+  "SP3322": {
+   "city": "Hyderabad",
+   "onboarded_date": "2022-04-17",
+   "partner_type": "freelance_technician"
+  },
+  "SP3098": {
+   "city": "Nashik",
+   "onboarded_date": "2022-01-20",
+   "partner_type": "franchise"
+  },
+  "SP3240": {
+   "city": "Kota",
+   "onboarded_date": "2022-06-10",
+   "partner_type": "freelance_technician"
+  },
+  "SP3073": {
+   "city": "Chennai",
+   "onboarded_date": "2023-10-23",
+   "partner_type": "freelance_technician"
+  },
+  "SP3255": {
+   "city": "Mumbai",
+   "onboarded_date": "2024-11-14",
+   "partner_type": "franchise"
+  },
+  "SP3135": {
+   "city": "Pune",
+   "onboarded_date": "2023-08-07",
+   "partner_type": "franchise"
+  },
+  "SP3301": {
+   "city": "Hubballi",
+   "onboarded_date": "2024-05-01",
+   "partner_type": "freelance_technician"
+  },
+  "SP3021": {
+   "city": "Coimbatore",
+   "onboarded_date": "2022-04-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3112": {
+   "city": "Chennai",
+   "onboarded_date": "2024-08-07",
+   "partner_type": "franchise"
+  },
+  "SP3095": {
+   "city": "Bhopal",
+   "onboarded_date": "2021-11-17",
+   "partner_type": "franchise"
+  },
+  "SP3049": {
+   "city": "Mysuru",
+   "onboarded_date": "2024-11-15",
+   "partner_type": "franchise"
+  },
+  "SP3030": {
+   "city": "Bhopal",
+   "onboarded_date": "2023-03-09",
+   "partner_type": "franchise"
+  },
+  "SP3164": {
+   "city": "Warangal",
+   "onboarded_date": "2022-04-28",
+   "partner_type": "freelance_technician"
+  },
+  "SP3211": {
+   "city": "Kota",
+   "onboarded_date": "2021-08-28",
+   "partner_type": "freelance_technician"
+  },
+  "SP3293": {
+   "city": "Indore",
+   "onboarded_date": "2022-05-24",
+   "partner_type": "franchise"
+  },
+  "SP3213": {
+   "city": "Chennai",
+   "onboarded_date": "2021-06-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3216": {
+   "city": "Kota",
+   "onboarded_date": "2023-04-29",
+   "partner_type": "freelance_technician"
+  },
+  "SP3121": {
+   "city": "Jaipur",
+   "onboarded_date": "2021-10-08",
+   "partner_type": "franchise"
+  },
+  "SP3093": {
+   "city": "Warangal",
+   "onboarded_date": "2025-02-16",
+   "partner_type": "franchise"
+  },
+  "SP3110": {
+   "city": "Aurangabad",
+   "onboarded_date": "2023-05-06",
+   "partner_type": "franchise"
+  },
+  "SP3235": {
+   "city": "Jaipur",
+   "onboarded_date": "2021-12-23",
+   "partner_type": "freelance_technician"
+  },
+  "SP3326": {
+   "city": "Delhi",
+   "onboarded_date": "2022-03-05",
+   "partner_type": "freelance_technician"
+  },
+  "SP3046": {
+   "city": "Coimbatore",
+   "onboarded_date": "2023-07-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3368": {
+   "city": "Coimbatore",
+   "onboarded_date": "2024-06-13",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3272": {
+   "city": "Mysuru",
+   "onboarded_date": "2023-07-26",
+   "partner_type": "freelance_technician"
+  },
+  "SP3285": {
+   "city": "Indore",
+   "onboarded_date": "2023-09-30",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3302": {
+   "city": "Kota",
+   "onboarded_date": "2024-07-14",
+   "partner_type": "franchise"
+  },
+  "SP3157": {
+   "city": "Kota",
+   "onboarded_date": "2023-03-11",
+   "partner_type": "freelance_technician"
+  },
+  "SP3199": {
+   "city": "Nashik",
+   "onboarded_date": "2021-09-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3273": {
+   "city": "Delhi",
+   "onboarded_date": "2025-02-23",
+   "partner_type": "franchise"
+  },
+  "SP3173": {
+   "city": "Chennai",
+   "onboarded_date": "2025-02-06",
+   "partner_type": "franchise"
+  },
+  "SP3136": {
+   "city": "Pune",
+   "onboarded_date": "2022-03-03",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3017": {
+   "city": "Mysuru",
+   "onboarded_date": "2022-11-20",
+   "partner_type": "franchise"
+  },
+  "SP3366": {
+   "city": "Hubballi",
+   "onboarded_date": "2021-10-03",
+   "partner_type": "franchise"
+  },
+  "SP3167": {
+   "city": "Hyderabad",
+   "onboarded_date": "2022-12-22",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3171": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-01-25",
+   "partner_type": "freelance_technician"
+  },
+  "SP3288": {
+   "city": "Delhi",
+   "onboarded_date": "2022-10-26",
+   "partner_type": "franchise"
+  },
+  "SP3181": {
+   "city": "Indore",
+   "onboarded_date": "2024-10-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3068": {
+   "city": "Kota",
+   "onboarded_date": "2023-12-17",
+   "partner_type": "freelance_technician"
+  },
+  "SP3284": {
+   "city": "Jaipur",
+   "onboarded_date": "2022-04-23",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3120": {
+   "city": "Mumbai",
+   "onboarded_date": "2022-12-15",
+   "partner_type": "freelance_technician"
+  },
+  "SP3374": {
+   "city": "Lucknow",
+   "onboarded_date": "2021-11-11",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3336": {
+   "city": "Delhi",
+   "onboarded_date": "2021-11-09",
+   "partner_type": "freelance_technician"
+  },
+  "SP3002": {
+   "city": "Indore",
+   "onboarded_date": "2024-01-19",
+   "partner_type": "freelance_technician"
+  },
+  "SP3203": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-12-09",
+   "partner_type": "freelance_technician"
+  },
+  "SP3172": {
+   "city": "Warangal",
+   "onboarded_date": "2021-06-03",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3206": {
+   "city": "Indore",
+   "onboarded_date": "2021-11-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3097": {
+   "city": "Delhi",
+   "onboarded_date": "2025-01-25",
+   "partner_type": "franchise"
+  },
+  "SP3180": {
+   "city": "Hyderabad",
+   "onboarded_date": "2024-10-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3369": {
+   "city": "Delhi",
+   "onboarded_date": "2023-06-28",
+   "partner_type": "franchise"
+  },
+  "SP3111": {
+   "city": "Lucknow",
+   "onboarded_date": "2023-03-21",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3081": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-12-26",
+   "partner_type": "freelance_technician"
+  },
+  "SP3365": {
+   "city": "Chennai",
+   "onboarded_date": "2023-09-10",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3126": {
+   "city": "Hyderabad",
+   "onboarded_date": "2025-03-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3297": {
+   "city": "Hubballi",
+   "onboarded_date": "2024-02-21",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3054": {
+   "city": "Nagpur",
+   "onboarded_date": "2022-12-18",
+   "partner_type": "franchise"
+  },
+  "SP3140": {
+   "city": "Mumbai",
+   "onboarded_date": "2025-02-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3218": {
+   "city": "Lucknow",
+   "onboarded_date": "2024-10-06",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3123": {
+   "city": "Kota",
+   "onboarded_date": "2023-12-01",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3148": {
+   "city": "Delhi",
+   "onboarded_date": "2024-06-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3251": {
+   "city": "Mysuru",
+   "onboarded_date": "2023-07-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3061": {
+   "city": "Mysuru",
+   "onboarded_date": "2023-08-11",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3279": {
+   "city": "Nashik",
+   "onboarded_date": "2023-09-30",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3071": {
+   "city": "Coimbatore",
+   "onboarded_date": "2022-08-17",
+   "partner_type": "franchise"
+  },
+  "SP3035": {
+   "city": "Warangal",
+   "onboarded_date": "2025-02-07",
+   "partner_type": "freelance_technician"
+  },
+  "SP3153": {
+   "city": "Jaipur",
+   "onboarded_date": "2023-03-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3077": {
+   "city": "Chennai",
+   "onboarded_date": "2023-09-18",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3244": {
+   "city": "Mysuru",
+   "onboarded_date": "2022-02-02",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3291": {
+   "city": "Delhi",
+   "onboarded_date": "2021-12-11",
+   "partner_type": "franchise"
+  },
+  "SP3124": {
+   "city": "Pune",
+   "onboarded_date": "2023-01-15",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3133": {
+   "city": "Hyderabad",
+   "onboarded_date": "2023-05-03",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3038": {
+   "city": "Nashik",
+   "onboarded_date": "2021-07-02",
+   "partner_type": "franchise"
+  },
+  "SP3340": {
+   "city": "Mumbai",
+   "onboarded_date": "2021-09-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3339": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-12-16",
+   "partner_type": "franchise"
+  },
+  "SP3020": {
+   "city": "Mysuru",
+   "onboarded_date": "2024-10-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3208": {
+   "city": "Aurangabad",
+   "onboarded_date": "2022-04-21",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3141": {
+   "city": "Warangal",
+   "onboarded_date": "2024-11-27",
+   "partner_type": "franchise"
+  },
+  "SP3348": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-01-27",
+   "partner_type": "franchise"
+  },
+  "SP3045": {
+   "city": "Warangal",
+   "onboarded_date": "2024-05-30",
+   "partner_type": "freelance_technician"
+  },
+  "SP3228": {
+   "city": "Pune",
+   "onboarded_date": "2021-08-11",
+   "partner_type": "freelance_technician"
+  },
+  "SP3328": {
+   "city": "Bengaluru",
+   "onboarded_date": "2023-03-29",
+   "partner_type": "franchise"
+  },
+  "SP3360": {
+   "city": "Mumbai",
+   "onboarded_date": "2022-11-18",
+   "partner_type": "franchise"
+  },
+  "SP3091": {
+   "city": "Lucknow",
+   "onboarded_date": "2025-01-19",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3072": {
+   "city": "Nashik",
+   "onboarded_date": "2021-09-18",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3183": {
+   "city": "Nagpur",
+   "onboarded_date": "2024-05-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3152": {
+   "city": "Aurangabad",
+   "onboarded_date": "2024-05-16",
+   "partner_type": "franchise"
+  },
+  "SP3269": {
+   "city": "Delhi",
+   "onboarded_date": "2024-02-04",
+   "partner_type": "franchise"
+  },
+  "SP3025": {
+   "city": "Chennai",
+   "onboarded_date": "2025-01-18",
+   "partner_type": "franchise"
+  },
+  "SP3187": {
+   "city": "Kota",
+   "onboarded_date": "2022-11-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3096": {
+   "city": "Bhopal",
+   "onboarded_date": "2021-10-02",
+   "partner_type": "freelance_technician"
+  },
+  "SP3044": {
+   "city": "Nagpur",
+   "onboarded_date": "2021-06-17",
+   "partner_type": "freelance_technician"
+  },
+  "SP3243": {
+   "city": "Hubballi",
+   "onboarded_date": "2023-01-24",
+   "partner_type": "franchise"
+  },
+  "SP3250": {
+   "city": "Chennai",
+   "onboarded_date": "2023-04-07",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3241": {
+   "city": "Delhi",
+   "onboarded_date": "2023-12-02",
+   "partner_type": "franchise"
+  },
+  "SP3150": {
+   "city": "Mysuru",
+   "onboarded_date": "2024-11-22",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3057": {
+   "city": "Warangal",
+   "onboarded_date": "2023-08-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3362": {
+   "city": "Warangal",
+   "onboarded_date": "2023-05-08",
+   "partner_type": "freelance_technician"
+  },
+  "SP3364": {
+   "city": "Mumbai",
+   "onboarded_date": "2022-10-31",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3224": {
+   "city": "Bengaluru",
+   "onboarded_date": "2026-03-10",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3115": {
+   "city": "Hyderabad",
+   "onboarded_date": "2026-01-25",
+   "partner_type": "franchise"
+  },
+  "SP3059": {
+   "city": "Hubballi",
+   "onboarded_date": "2025-12-05",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3357": {
+   "city": "Warangal",
+   "onboarded_date": "2026-08-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3245": {
+   "city": "Lucknow",
+   "onboarded_date": "2026-01-01",
+   "partner_type": "franchise"
+  },
+  "SP3295": {
+   "city": "Aurangabad",
+   "onboarded_date": "2026-03-02",
+   "partner_type": "franchise"
+  },
+  "SP3156": {
+   "city": "Indore",
+   "onboarded_date": "2026-06-03",
+   "partner_type": "freelance_technician"
+  },
+  "SP3170": {
+   "city": "Indore",
+   "onboarded_date": "2026-03-27",
+   "partner_type": "franchise"
+  },
+  "SP3346": {
+   "city": "Kota",
+   "onboarded_date": "2026-06-15",
+   "partner_type": "franchise"
+  },
+  "SP3221": {
+   "city": "Jaipur",
+   "onboarded_date": "2025-12-11",
+   "partner_type": "freelance_technician"
+  },
+  "SP3307": {
+   "city": "Indore",
+   "onboarded_date": "2026-06-29",
+   "partner_type": "franchise"
+  },
+  "SP3315": {
+   "city": "Jaipur",
+   "onboarded_date": "2025-11-21",
+   "partner_type": "franchise"
+  },
+  "SP3311": {
+   "city": "Nashik",
+   "onboarded_date": "2025-12-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3316": {
+   "city": "Nashik",
+   "onboarded_date": "2026-07-31",
+   "partner_type": "franchise"
+  },
+  "SP3027": {
+   "city": "Pune",
+   "onboarded_date": "2025-12-03",
+   "partner_type": "freelance_technician"
+  },
+  "SP3129": {
+   "city": "Chennai",
+   "onboarded_date": "2026-01-19",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3286": {
+   "city": "Mysuru",
+   "onboarded_date": "2026-06-04",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3375": {
+   "city": "Bhopal",
+   "onboarded_date": "2026-04-04",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3305": {
+   "city": "Delhi",
+   "onboarded_date": "2026-03-21",
+   "partner_type": "franchise"
+  },
+  "SP3160": {
+   "city": "Pune",
+   "onboarded_date": "2025-12-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3037": {
+   "city": "Delhi",
+   "onboarded_date": "2026-07-15",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3010": {
+   "city": "Bengaluru",
+   "onboarded_date": "2026-02-28",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3353": {
+   "city": "Hyderabad",
+   "onboarded_date": "2026-04-14",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3105": {
+   "city": "Hubballi",
+   "onboarded_date": "2025-12-17",
+   "partner_type": "franchise"
+  },
+  "SP3233": {
+   "city": "Nagpur",
+   "onboarded_date": "2026-03-18",
+   "partner_type": "freelance_technician"
+  },
+  "SP3270": {
+   "city": "Mysuru",
+   "onboarded_date": "2026-06-08",
+   "partner_type": "franchise"
+  },
+  "SP3174": {
+   "city": "Chennai",
+   "onboarded_date": "2026-03-18",
+   "partner_type": "freelance_technician"
+  },
+  "SP3048": {
+   "city": "Chennai",
+   "onboarded_date": "2025-11-16",
+   "partner_type": "freelance_technician"
+  },
+  "SP3231": {
+   "city": "Bengaluru",
+   "onboarded_date": "2026-03-13",
+   "partner_type": "franchise"
+  },
+  "SP3191": {
+   "city": "Pune",
+   "onboarded_date": "2026-07-16",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3283": {
+   "city": "Hubballi",
+   "onboarded_date": "2026-04-29",
+   "partner_type": "franchise"
+  },
+  "SP3229": {
+   "city": "Kota",
+   "onboarded_date": "2026-07-27",
+   "partner_type": "franchise"
+  },
+  "SP3090": {
+   "city": "Mysuru",
+   "onboarded_date": "2026-07-20",
+   "partner_type": "freelance_technician"
+  },
+  "SP3149": {
+   "city": "Hyderabad",
+   "onboarded_date": "2026-05-15",
+   "partner_type": "franchise"
+  },
+  "SP3011": {
+   "city": "Coimbatore",
+   "onboarded_date": "2026-04-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3000": {
+   "city": "Hubballi",
+   "onboarded_date": "2026-04-21",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3313": {
+   "city": "Nagpur",
+   "onboarded_date": "2026-04-22",
+   "partner_type": "franchise"
+  },
+  "SP3085": {
+   "city": "Hubballi",
+   "onboarded_date": "2026-01-20",
+   "partner_type": "franchise"
+  },
+  "SP3107": {
+   "city": "Jaipur",
+   "onboarded_date": "2026-05-13",
+   "partner_type": "freelance_technician"
+  },
+  "SP3050": {
+   "city": "Aurangabad",
+   "onboarded_date": "2026-02-01",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3223": {
+   "city": "Hubballi",
+   "onboarded_date": "2026-04-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3287": {
+   "city": "Mumbai",
+   "onboarded_date": "2026-07-17",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3236": {
+   "city": "Hubballi",
+   "onboarded_date": "2026-07-27",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3344": {
+   "city": "Kota",
+   "onboarded_date": "2026-07-27",
+   "partner_type": "franchise"
+  },
+  "SP3009": {
+   "city": "Mysuru",
+   "onboarded_date": "2026-01-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3239": {
+   "city": "Hubballi",
+   "onboarded_date": "2025-12-27",
+   "partner_type": "franchise"
+  },
+  "SP3039": {
+   "city": "Bhopal",
+   "onboarded_date": "2025-12-29",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3226": {
+   "city": "Hyderabad",
+   "onboarded_date": "2025-11-12",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3007": {
+   "city": "Jaipur",
+   "onboarded_date": "2026-01-05",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3194": {
+   "city": "Lucknow",
+   "onboarded_date": "2025-12-28",
+   "partner_type": "franchise"
+  },
+  "SP3118": {
+   "city": "Pune",
+   "onboarded_date": "2026-06-03",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3300": {
+   "city": "Warangal",
+   "onboarded_date": "2026-07-29",
+   "partner_type": "freelance_technician"
+  },
+  "SP3294": {
+   "city": "Nashik",
+   "onboarded_date": "2026-04-06",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3014": {
+   "city": "Aurangabad",
+   "onboarded_date": "2026-03-09",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3256": {
+   "city": "Chennai",
+   "onboarded_date": "2026-04-26",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3318": {
+   "city": "Hubballi",
+   "onboarded_date": "2025-12-06",
+   "partner_type": "franchise"
+  },
+  "SP3184": {
+   "city": "Nagpur",
+   "onboarded_date": "2026-07-08",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3232": {
+   "city": "Jaipur",
+   "onboarded_date": "2025-11-26",
+   "partner_type": "authorised_service_centre"
+  },
+  "SP3319": {
+   "city": "Warangal",
+   "onboarded_date": "2026-02-11",
+   "partner_type": "franchise"
+  },
+  "SP3252": {
+   "city": "Bengaluru",
+   "onboarded_date": "2026-06-27",
+   "partner_type": "franchise"
+  }
+ },
+ "products": {
+  "KH-AF-01": {
+   "family": "Air Fryer",
+   "list_price_inr": 5199.0,
+   "warranty_months": 12
+  },
+  "KH-AF-02": {
+   "family": "Air Fryer",
+   "list_price_inr": 6499.0,
+   "warranty_months": 12
+  },
+  "KH-AF-03": {
+   "family": "Air Fryer",
+   "list_price_inr": 8773.0,
+   "warranty_months": 12
+  },
+  "KH-MG-01": {
+   "family": "Mixer Grinder",
+   "list_price_inr": 3199.0,
+   "warranty_months": 24
+  },
+  "KH-MG-02": {
+   "family": "Mixer Grinder",
+   "list_price_inr": 3999.0,
+   "warranty_months": 24
+  },
+  "KH-MG-03": {
+   "family": "Mixer Grinder",
+   "list_price_inr": 5398.0,
+   "warranty_months": 24
+  },
+  "KH-WP-01": {
+   "family": "Water Purifier",
+   "list_price_inr": 11999.0,
+   "warranty_months": 12
+  },
+  "KH-WP-02": {
+   "family": "Water Purifier",
+   "list_price_inr": 14999.0,
+   "warranty_months": 12
+  },
+  "KH-WP-03": {
+   "family": "Water Purifier",
+   "list_price_inr": 20248.0,
+   "warranty_months": 12
+  },
+  "KH-RV-01": {
+   "family": "Robot Vacuum",
+   "list_price_inr": 17599.0,
+   "warranty_months": 12
+  },
+  "KH-RV-02": {
+   "family": "Robot Vacuum",
+   "list_price_inr": 21999.0,
+   "warranty_months": 12
+  },
+  "KH-RV-03": {
+   "family": "Robot Vacuum",
+   "list_price_inr": 29698.0,
+   "warranty_months": 12
+  },
+  "KH-IC-01": {
+   "family": "Induction Cooktop",
+   "list_price_inr": 2399.0,
+   "warranty_months": 12
+  },
+  "KH-IC-02": {
+   "family": "Induction Cooktop",
+   "list_price_inr": 2999.0,
+   "warranty_months": 12
+  },
+  "KH-IC-03": {
+   "family": "Induction Cooktop",
+   "list_price_inr": 4048.0,
+   "warranty_months": 12
+  },
+  "KH-CF-01": {
+   "family": "Ceiling Fan",
+   "list_price_inr": 2799.0,
+   "warranty_months": 24
+  },
+  "KH-CF-02": {
+   "family": "Ceiling Fan",
+   "list_price_inr": 3499.0,
+   "warranty_months": 24
+  },
+  "KH-CF-03": {
+   "family": "Ceiling Fan",
+   "list_price_inr": 4723.0,
+   "warranty_months": 24
+  },
+  "KH-RH-01": {
+   "family": "Room Heater",
+   "list_price_inr": 1999.0,
+   "warranty_months": 12
+  },
+  "KH-RH-02": {
+   "family": "Room Heater",
+   "list_price_inr": 2499.0,
+   "warranty_months": 12
+  },
+  "KH-RH-03": {
+   "family": "Room Heater",
+   "list_price_inr": 3373.0,
+   "warranty_months": 12
+  }
+ },
+ "partner_history": {
+  "SP3000": {
+   "n": 8.0,
+   "frauds": 0.0,
+   "rate": 0.007027932292601232,
+   "small_n": 5.0,
+   "small_rate": 0.006363679536496177
+  },
+  "SP3001": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3002": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3003": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3004": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3005": {
+   "n": 26.0,
+   "frauds": 0.0,
+   "rate": 0.003513966146300616,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3006": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3007": {
+   "n": 14.0,
+   "frauds": 0.0,
+   "rate": 0.005270949219450924,
+   "small_n": 10.0,
+   "small_rate": 0.0047727596523721326
+  },
+  "SP3008": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3009": {
+   "n": 16.0,
+   "frauds": 0.0,
+   "rate": 0.004865491587185468,
+   "small_n": 7.0,
+   "small_rate": 0.005615011355731921
+  },
+  "SP3010": {
+   "n": 12.0,
+   "frauds": 0.0,
+   "rate": 0.00575012642121919,
+   "small_n": 8.0,
+   "small_rate": 0.005303066280413481
+  },
+  "SP3011": {
+   "n": 8.0,
+   "frauds": 0.0,
+   "rate": 0.007027932292601232,
+   "small_n": 8.0,
+   "small_rate": 0.005303066280413481
+  },
+  "SP3012": {
+   "n": 47.0,
+   "frauds": 0.0,
+   "rate": 0.00221934703976881,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3013": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3014": {
+   "n": 4.0,
+   "frauds": 0.0,
+   "rate": 0.009035912947630157,
+   "small_n": 2.0,
+   "small_rate": 0.00795459942062022
+  },
+  "SP3015": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3016": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3017": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3018": {
+   "n": 31.0,
+   "frauds": 1.0,
+   "rate": 0.027475677591873714,
+   "small_n": 18.0,
+   "small_rate": 0.039123399751694383
+  },
+  "SP3019": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3020": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3021": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3022": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3023": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3024": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3025": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3026": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3027": {
+   "n": 13.0,
+   "frauds": 1.0,
+   "rate": 0.048978381794209665,
+   "small_n": 12.0,
+   "small_rate": 0.049793417865792854
+  },
+  "SP3028": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 32.0,
+   "small_rate": 0.0022727426916057773
+  },
+  "SP3029": {
+   "n": 40.0,
+   "frauds": 1.0,
+   "rate": 0.022530055625336446,
+   "small_n": 28.0,
+   "small_rate": 0.0288277682380906
+  },
+  "SP3030": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3031": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3032": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3033": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3034": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3035": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3036": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3037": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3038": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3039": {
+   "n": 11.0,
+   "frauds": 0.0,
+   "rate": 0.006023941965086771,
+   "small_n": 7.0,
+   "small_rate": 0.005615011355731921
+  },
+  "SP3040": {
+   "n": 46.0,
+   "frauds": 0.0,
+   "rate": 0.002258978236907539,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3041": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3042": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3043": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3044": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3045": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 14.0,
+   "small_rate": 0.00397729971031011
+  },
+  "SP3046": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3047": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3048": {
+   "n": 18.0,
+   "frauds": 0.0,
+   "rate": 0.004517956473815078,
+   "small_n": 12.0,
+   "small_rate": 0.0043388724112473935
+  },
+  "SP3049": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3050": {
+   "n": 10.0,
+   "frauds": 0.0,
+   "rate": 0.006325139063341109,
+   "small_n": 5.0,
+   "small_rate": 0.006363679536496177
+  },
+  "SP3051": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3052": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3053": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3054": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3055": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3056": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3057": {
+   "n": 25.0,
+   "frauds": 1.0,
+   "rate": 0.03218579375048063,
+   "small_n": 16.0,
+   "small_rate": 0.04213289204028626
+  },
+  "SP3058": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3059": {
+   "n": 16.0,
+   "frauds": 0.0,
+   "rate": 0.004865491587185468,
+   "small_n": 13.0,
+   "small_rate": 0.004150225784671419
+  },
+  "SP3060": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3061": {
+   "n": 34.0,
+   "frauds": 1.0,
+   "rate": 0.025602335937882324,
+   "small_n": 22.0,
+   "small_rate": 0.034232974782732586
+  },
+  "SP3062": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3063": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3064": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3065": {
+   "n": 29.0,
+   "frauds": 1.0,
+   "rate": 0.028884686699149287,
+   "small_n": 20.0,
+   "small_rate": 0.03651517310158143
+  },
+  "SP3066": {
+   "n": 21.0,
+   "frauds": 0.0,
+   "rate": 0.004080734879574909,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3067": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3068": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3069": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3070": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3071": {
+   "n": 23.0,
+   "frauds": 1.0,
+   "rate": 0.03413644791717643,
+   "small_n": 12.0,
+   "small_rate": 0.049793417865792854
+  },
+  "SP3072": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 29.0,
+   "small_rate": 0.0024475690524985295
+  },
+  "SP3073": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3074": {
+   "n": 22.0,
+   "frauds": 0.0,
+   "rate": 0.003953211914588193,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3075": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3076": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3077": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3078": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3079": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3080": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3081": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3082": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3083": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3084": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3085": {
+   "n": 7.0,
+   "frauds": 0.0,
+   "rate": 0.007441340074518952,
+   "small_n": 7.0,
+   "small_rate": 0.005615011355731921
+  },
+  "SP3086": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3087": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3088": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3089": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3090": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3091": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 11.0,
+   "small_rate": 0.004545485383211555
+  },
+  "SP3092": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 14.0,
+   "small_rate": 0.00397729971031011
+  },
+  "SP3093": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3094": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3095": {
+   "n": 36.0,
+   "frauds": 10.0,
+   "rate": 0.22014136481014832,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3096": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3097": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3098": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3099": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3100": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3101": {
+   "n": 26.0,
+   "frauds": 0.0,
+   "rate": 0.003513966146300616,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3102": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3103": {
+   "n": 34.0,
+   "frauds": 9.0,
+   "rate": 0.20742051775606415,
+   "small_n": 18.0,
+   "small_rate": 0.039123399751694383
+  },
+  "SP3104": {
+   "n": 45.0,
+   "frauds": 0.0,
+   "rate": 0.002300050568487676,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3105": {
+   "n": 9.0,
+   "frauds": 0.0,
+   "rate": 0.006658041119306431,
+   "small_n": 7.0,
+   "small_rate": 0.005615011355731921
+  },
+  "SP3106": {
+   "n": 44.0,
+   "frauds": 0.0,
+   "rate": 0.002342644097533744,
+   "small_n": 32.0,
+   "small_rate": 0.0022727426916057773
+  },
+  "SP3107": {
+   "n": 4.0,
+   "frauds": 0.0,
+   "rate": 0.009035912947630157,
+   "small_n": 2.0,
+   "small_rate": 0.00795459942062022
+  },
+  "SP3108": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3109": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3110": {
+   "n": 37.0,
+   "frauds": 1.0,
+   "rate": 0.023968144282272813,
+   "small_n": 25.0,
+   "small_rate": 0.031298719801355505
+  },
+  "SP3111": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3112": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3113": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3114": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3115": {
+   "n": 18.0,
+   "frauds": 0.0,
+   "rate": 0.004517956473815078,
+   "small_n": 12.0,
+   "small_rate": 0.0043388724112473935
+  },
+  "SP3116": {
+   "n": 28.0,
+   "frauds": 1.0,
+   "rate": 0.029644810033337427,
+   "small_n": 18.0,
+   "small_rate": 0.039123399751694383
+  },
+  "SP3117": {
+   "n": 35.0,
+   "frauds": 1.0,
+   "rate": 0.025033395139262716,
+   "small_n": 28.0,
+   "small_rate": 0.0288277682380906
+  },
+  "SP3118": {
+   "n": 2.0,
+   "frauds": 2.0,
+   "rate": 0.1772085651055685,
+   "small_n": 2.0,
+   "small_rate": 0.1746212660872869
+  },
+  "SP3119": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3120": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3121": {
+   "n": 36.0,
+   "frauds": 1.0,
+   "rate": 0.024489190897104832,
+   "small_n": 23.0,
+   "small_rate": 0.03319561191052857
+  },
+  "SP3122": {
+   "n": 36.0,
+   "frauds": 1.0,
+   "rate": 0.024489190897104832,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3123": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3124": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3125": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3126": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3127": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3128": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3129": {
+   "n": 25.0,
+   "frauds": 4.0,
+   "rate": 0.11790007946476636,
+   "small_n": 17.0,
+   "small_rate": 0.1516835256684238
+  },
+  "SP3130": {
+   "n": 43.0,
+   "frauds": 1.0,
+   "rate": 0.02125476945786457,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3131": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3132": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3133": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3134": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3135": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3136": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3137": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 29.0,
+   "small_rate": 0.0024475690524985295
+  },
+  "SP3138": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3139": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3140": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3141": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3142": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3143": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3144": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3145": {
+   "n": 22.0,
+   "frauds": 0.0,
+   "rate": 0.003953211914588193,
+   "small_n": 8.0,
+   "small_rate": 0.005303066280413481
+  },
+  "SP3146": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3147": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3148": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3149": {
+   "n": 2.0,
+   "frauds": 0.0,
+   "rate": 0.010541898438901848,
+   "small_n": 2.0,
+   "small_rate": 0.00795459942062022
+  },
+  "SP3150": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3151": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 14.0,
+   "small_rate": 0.00397729971031011
+  },
+  "SP3152": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3153": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3154": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3155": {
+   "n": 22.0,
+   "frauds": 1.0,
+   "rate": 0.035203211914588195,
+   "small_n": 11.0,
+   "small_rate": 0.05216453300225918
+  },
+  "SP3156": {
+   "n": 1.0,
+   "frauds": 0.0,
+   "rate": 0.01150025284243838,
+   "small_n": 1.0,
+   "small_rate": 0.008677744822494787
+  },
+  "SP3157": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3158": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3159": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3160": {
+   "n": 39.0,
+   "frauds": 10.0,
+   "rate": 0.20666332206666985,
+   "small_n": 28.0,
+   "small_rate": 0.2656698735012485
+  },
+  "SP3161": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3162": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3163": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3164": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3165": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3166": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3167": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3168": {
+   "n": 44.0,
+   "frauds": 0.0,
+   "rate": 0.002342644097533744,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3169": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3170": {
+   "n": 7.0,
+   "frauds": 0.0,
+   "rate": 0.007441340074518952,
+   "small_n": 6.0,
+   "small_rate": 0.005965949565465166
+  },
+  "SP3171": {
+   "n": 46.0,
+   "frauds": 0.0,
+   "rate": 0.002258978236907539,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3172": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3173": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3174": {
+   "n": 4.0,
+   "frauds": 0.0,
+   "rate": 0.009035912947630157,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3175": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3176": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3177": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3178": {
+   "n": 40.0,
+   "frauds": 2.0,
+   "rate": 0.042530055625336446,
+   "small_n": 21.0,
+   "small_rate": 0.03533726429185299
+  },
+  "SP3179": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3180": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3181": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3182": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3183": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3184": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3185": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3186": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3187": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3188": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3189": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3190": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3191": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3192": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3193": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3194": {
+   "n": 14.0,
+   "frauds": 0.0,
+   "rate": 0.005270949219450924,
+   "small_n": 10.0,
+   "small_rate": 0.0047727596523721326
+  },
+  "SP3195": {
+   "n": 28.0,
+   "frauds": 1.0,
+   "rate": 0.029644810033337427,
+   "small_n": 16.0,
+   "small_rate": 0.04213289204028626
+  },
+  "SP3196": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3197": {
+   "n": 26.0,
+   "frauds": 1.0,
+   "rate": 0.031291743924078394,
+   "small_n": 14.0,
+   "small_rate": 0.045643966376976784
+  },
+  "SP3198": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3199": {
+   "n": 53.0,
+   "frauds": 0.0,
+   "rate": 0.0020079806550289234,
+   "small_n": 33.0,
+   "small_rate": 0.002219888210405643
+  },
+  "SP3200": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 30.0,
+   "small_rate": 0.0023863798261860663
+  },
+  "SP3201": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3202": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3203": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 13.0,
+   "small_rate": 0.004150225784671419
+  },
+  "SP3204": {
+   "n": 26.0,
+   "frauds": 1.0,
+   "rate": 0.031291743924078394,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3205": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3206": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3207": {
+   "n": 39.0,
+   "frauds": 13.0,
+   "rate": 0.2678878118625882,
+   "small_n": 18.0,
+   "small_rate": 0.18198054260883723
+  },
+  "SP3208": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3209": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3210": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 14.0,
+   "small_rate": 0.00397729971031011
+  },
+  "SP3211": {
+   "n": 41.0,
+   "frauds": 0.0,
+   "rate": 0.0024804466915063174,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3212": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3213": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3214": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3215": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3216": {
+   "n": 48.0,
+   "frauds": 0.0,
+   "rate": 0.0021810824356348654,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3217": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3218": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3219": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3220": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3221": {
+   "n": 11.0,
+   "frauds": 0.0,
+   "rate": 0.006023941965086771,
+   "small_n": 10.0,
+   "small_rate": 0.0047727596523721326
+  },
+  "SP3222": {
+   "n": 31.0,
+   "frauds": 1.0,
+   "rate": 0.027475677591873714,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3223": {
+   "n": 10.0,
+   "frauds": 0.0,
+   "rate": 0.006325139063341109,
+   "small_n": 5.0,
+   "small_rate": 0.006363679536496177
+  },
+  "SP3224": {
+   "n": 2.0,
+   "frauds": 0.0,
+   "rate": 0.010541898438901848,
+   "small_n": 1.0,
+   "small_rate": 0.008677744822494787
+  },
+  "SP3225": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3226": {
+   "n": 14.0,
+   "frauds": 0.0,
+   "rate": 0.005270949219450924,
+   "small_n": 7.0,
+   "small_rate": 0.005615011355731921
+  },
+  "SP3227": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3228": {
+   "n": 25.0,
+   "frauds": 7.0,
+   "rate": 0.20361436517905207,
+   "small_n": 14.0,
+   "small_rate": 0.045643966376976784
+  },
+  "SP3229": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3230": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3231": {
+   "n": 8.0,
+   "frauds": 0.0,
+   "rate": 0.007027932292601232,
+   "small_n": 5.0,
+   "small_rate": 0.006363679536496177
+  },
+  "SP3232": {
+   "n": 40.0,
+   "frauds": 7.0,
+   "rate": 0.14253005562533644,
+   "small_n": 30.0,
+   "small_rate": 0.17738637982618605
+  },
+  "SP3233": {
+   "n": 4.0,
+   "frauds": 0.0,
+   "rate": 0.009035912947630157,
+   "small_n": 4.0,
+   "small_rate": 0.006818228074817333
+  },
+  "SP3234": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3235": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3236": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3237": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 12.0,
+   "small_rate": 0.0043388724112473935
+  },
+  "SP3238": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3239": {
+   "n": 11.0,
+   "frauds": 0.0,
+   "rate": 0.006023941965086771,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3240": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3241": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 29.0,
+   "small_rate": 0.0024475690524985295
+  },
+  "SP3242": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3243": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 13.0,
+   "small_rate": 0.004150225784671419
+  },
+  "SP3244": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3245": {
+   "n": 14.0,
+   "frauds": 0.0,
+   "rate": 0.005270949219450924,
+   "small_n": 8.0,
+   "small_rate": 0.005303066280413481
+  },
+  "SP3246": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3247": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3248": {
+   "n": 24.0,
+   "frauds": 0.0,
+   "rate": 0.003720670037259476,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3249": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3250": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3251": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3252": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3253": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3254": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3255": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3256": {
+   "n": 3.0,
+   "frauds": 0.0,
+   "rate": 0.009730983174370936,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3257": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3258": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3259": {
+   "n": 35.0,
+   "frauds": 1.0,
+   "rate": 0.025033395139262716,
+   "small_n": 24.0,
+   "small_rate": 0.03221927038374832
+  },
+  "SP3260": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3261": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3262": {
+   "n": 35.0,
+   "frauds": 1.0,
+   "rate": 0.025033395139262716,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3263": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3264": {
+   "n": 24.0,
+   "frauds": 0.0,
+   "rate": 0.003720670037259476,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3265": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3266": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3267": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3268": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3269": {
+   "n": 41.0,
+   "frauds": 1.0,
+   "rate": 0.02208828982876122,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3270": {
+   "n": 2.0,
+   "frauds": 0.0,
+   "rate": 0.010541898438901848,
+   "small_n": 1.0,
+   "small_rate": 0.008677744822494787
+  },
+  "SP3271": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3272": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3273": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3274": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3275": {
+   "n": 41.0,
+   "frauds": 1.0,
+   "rate": 0.02208828982876122,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3276": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3277": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3278": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3279": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3280": {
+   "n": 26.0,
+   "frauds": 0.0,
+   "rate": 0.003513966146300616,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3281": {
+   "n": 20.0,
+   "frauds": 0.0,
+   "rate": 0.004216759375560739,
+   "small_n": 9.0,
+   "small_rate": 0.005023957528812771
+  },
+  "SP3282": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3283": {
+   "n": 4.0,
+   "frauds": 0.0,
+   "rate": 0.009035912947630157,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3284": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3285": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3286": {
+   "n": 2.0,
+   "frauds": 2.0,
+   "rate": 0.1772085651055685,
+   "small_n": 2.0,
+   "small_rate": 0.1746212660872869
+  },
+  "SP3287": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3288": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3289": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3290": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3291": {
+   "n": 39.0,
+   "frauds": 2.0,
+   "rate": 0.04339801594422086,
+   "small_n": 22.0,
+   "small_rate": 0.034232974782732586
+  },
+  "SP3292": {
+   "n": 30.0,
+   "frauds": 7.0,
+   "rate": 0.17816256953167056,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3293": {
+   "n": 32.0,
+   "frauds": 2.0,
+   "rate": 0.050631018601591006,
+   "small_n": 21.0,
+   "small_rate": 0.03533726429185299
+  },
+  "SP3294": {
+   "n": 3.0,
+   "frauds": 0.0,
+   "rate": 0.009730983174370936,
+   "small_n": 2.0,
+   "small_rate": 0.00795459942062022
+  },
+  "SP3295": {
+   "n": 6.0,
+   "frauds": 0.0,
+   "rate": 0.007906423829176387,
+   "small_n": 5.0,
+   "small_rate": 0.006363679536496177
+  },
+  "SP3296": {
+   "n": 26.0,
+   "frauds": 0.0,
+   "rate": 0.003513966146300616,
+   "small_n": 13.0,
+   "small_rate": 0.004150225784671419
+  },
+  "SP3297": {
+   "n": 42.0,
+   "frauds": 0.0,
+   "rate": 0.002432745793592734,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3298": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3299": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3300": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3301": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3302": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 29.0,
+   "small_rate": 0.0024475690524985295
+  },
+  "SP3303": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3304": {
+   "n": 38.0,
+   "frauds": 1.0,
+   "rate": 0.023468807943058796,
+   "small_n": 25.0,
+   "small_rate": 0.031298719801355505
+  },
+  "SP3305": {
+   "n": 11.0,
+   "frauds": 0.0,
+   "rate": 0.006023941965086771,
+   "small_n": 7.0,
+   "small_rate": 0.005615011355731921
+  },
+  "SP3306": {
+   "n": 38.0,
+   "frauds": 1.0,
+   "rate": 0.023468807943058796,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3307": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3308": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3309": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3310": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3311": {
+   "n": 6.0,
+   "frauds": 0.0,
+   "rate": 0.007906423829176387,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3312": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3313": {
+   "n": 2.0,
+   "frauds": 0.0,
+   "rate": 0.010541898438901848,
+   "small_n": 2.0,
+   "small_rate": 0.00795459942062022
+  },
+  "SP3314": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3315": {
+   "n": 13.0,
+   "frauds": 0.0,
+   "rate": 0.0055001209246444424,
+   "small_n": 6.0,
+   "small_rate": 0.005965949565465166
+  },
+  "SP3316": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3317": {
+   "n": 32.0,
+   "frauds": 2.0,
+   "rate": 0.050631018601591006,
+   "small_n": 21.0,
+   "small_rate": 0.03533726429185299
+  },
+  "SP3318": {
+   "n": 29.0,
+   "frauds": 5.0,
+   "rate": 0.13144878926325185,
+   "small_n": 18.0,
+   "small_rate": 0.18198054260883723
+  },
+  "SP3319": {
+   "n": 14.0,
+   "frauds": 3.0,
+   "rate": 0.13027094921945093,
+   "small_n": 10.0,
+   "small_rate": 0.15477275965237214
+  },
+  "SP3320": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3321": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3322": {
+   "n": 26.0,
+   "frauds": 0.0,
+   "rate": 0.003513966146300616,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3323": {
+   "n": 39.0,
+   "frauds": 1.0,
+   "rate": 0.02298985267891474,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3324": {
+   "n": 31.0,
+   "frauds": 1.0,
+   "rate": 0.027475677591873714,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3325": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3326": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3327": {
+   "n": 29.0,
+   "frauds": 0.0,
+   "rate": 0.0032436610581236458,
+   "small_n": 10.0,
+   "small_rate": 0.0047727596523721326
+  },
+  "SP3328": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3329": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 24.0,
+   "small_rate": 0.0028075056778659605
+  },
+  "SP3330": {
+   "n": 44.0,
+   "frauds": 0.0,
+   "rate": 0.002342644097533744,
+   "small_n": 33.0,
+   "small_rate": 0.002219888210405643
+  },
+  "SP3331": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3332": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3333": {
+   "n": 25.0,
+   "frauds": 0.0,
+   "rate": 0.0036143651790520623,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3334": {
+   "n": 26.0,
+   "frauds": 1.0,
+   "rate": 0.031291743924078394,
+   "small_n": 16.0,
+   "small_rate": 0.0036713535787477945
+  },
+  "SP3335": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3336": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3337": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3338": {
+   "n": 32.0,
+   "frauds": 1.0,
+   "rate": 0.026821494792067198,
+   "small_n": 22.0,
+   "small_rate": 0.034232974782732586
+  },
+  "SP3339": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3340": {
+   "n": 26.0,
+   "frauds": 0.0,
+   "rate": 0.003513966146300616,
+   "small_n": 15.0,
+   "small_rate": 0.0038182077218977062
+  },
+  "SP3341": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3342": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3343": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3344": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3345": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3346": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3347": {
+   "n": 27.0,
+   "frauds": 0.0,
+   "rate": 0.0034189940882924917,
+   "small_n": 14.0,
+   "small_rate": 0.00397729971031011
+  },
+  "SP3348": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3349": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 28.0,
+   "small_rate": 0.0025119787644063856
+  },
+  "SP3350": {
+   "n": 33.0,
+   "frauds": 9.0,
+   "rate": 0.2122442507271354,
+   "small_n": 15.0,
+   "small_rate": 0.08381820772189771
+  },
+  "SP3351": {
+   "n": 36.0,
+   "frauds": 0.0,
+   "rate": 0.0027500604623222212,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3352": {
+   "n": 40.0,
+   "frauds": 0.0,
+   "rate": 0.002530055625336444,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3353": {
+   "n": 5.0,
+   "frauds": 0.0,
+   "rate": 0.008433518751121478,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3354": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3355": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3356": {
+   "n": 39.0,
+   "frauds": 0.0,
+   "rate": 0.002581689413608616,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3357": {
+   "n": 0.0,
+   "frauds": 0.0,
+   "rate": 0.012650278126682218,
+   "small_n": 0.0,
+   "small_rate": 0.009545519304744265
+  },
+  "SP3358": {
+   "n": 44.0,
+   "frauds": 1.0,
+   "rate": 0.020861162616052264,
+   "small_n": 30.0,
+   "small_rate": 0.02738637982618607
+  },
+  "SP3359": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 18.0,
+   "small_rate": 0.0034091140374086664
+  },
+  "SP3360": {
+   "n": 47.0,
+   "frauds": 0.0,
+   "rate": 0.00221934703976881,
+   "small_n": 31.0,
+   "small_rate": 0.002328175440181528
+  },
+  "SP3361": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3362": {
+   "n": 37.0,
+   "frauds": 0.0,
+   "rate": 0.002691548537591961,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  },
+  "SP3363": {
+   "n": 34.0,
+   "frauds": 0.0,
+   "rate": 0.002875063210609595,
+   "small_n": 21.0,
+   "small_rate": 0.0030791997757239568
+  },
+  "SP3364": {
+   "n": 28.0,
+   "frauds": 0.0,
+   "rate": 0.0033290205596532155,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3365": {
+   "n": 32.0,
+   "frauds": 1.0,
+   "rate": 0.026821494792067198,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3366": {
+   "n": 24.0,
+   "frauds": 0.0,
+   "rate": 0.003720670037259476,
+   "small_n": 14.0,
+   "small_rate": 0.00397729971031011
+  },
+  "SP3367": {
+   "n": 23.0,
+   "frauds": 0.0,
+   "rate": 0.0038334176141461267,
+   "small_n": 17.0,
+   "small_rate": 0.003535377520275654
+  },
+  "SP3368": {
+   "n": 33.0,
+   "frauds": 0.0,
+   "rate": 0.002941925145740051,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3369": {
+   "n": 43.0,
+   "frauds": 0.0,
+   "rate": 0.002386844929562683,
+   "small_n": 27.0,
+   "small_rate": 0.002579870082363315
+  },
+  "SP3370": {
+   "n": 32.0,
+   "frauds": 0.0,
+   "rate": 0.0030119709825433853,
+   "small_n": 20.0,
+   "small_rate": 0.0031818397682480885
+  },
+  "SP3371": {
+   "n": 29.0,
+   "frauds": 1.0,
+   "rate": 0.028884686699149287,
+   "small_n": 22.0,
+   "small_rate": 0.034232974782732586
+  },
+  "SP3372": {
+   "n": 31.0,
+   "frauds": 0.0,
+   "rate": 0.0030854336894346876,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3373": {
+   "n": 37.0,
+   "frauds": 1.0,
+   "rate": 0.023968144282272813,
+   "small_n": 26.0,
+   "small_rate": 0.0026515331402067405
+  },
+  "SP3374": {
+   "n": 30.0,
+   "frauds": 0.0,
+   "rate": 0.0031625695316705544,
+   "small_n": 19.0,
+   "small_rate": 0.0032915583809462984
+  },
+  "SP3375": {
+   "n": 5.0,
+   "frauds": 0.0,
+   "rate": 0.008433518751121478,
+   "small_n": 3.0,
+   "small_rate": 0.007342707157495589
+  },
+  "SP3376": {
+   "n": 38.0,
+   "frauds": 12.0,
+   "rate": 0.25263547460972546,
+   "small_n": 21.0,
+   "small_rate": 0.06759532880798202
+  },
+  "SP3377": {
+   "n": 38.0,
+   "frauds": 0.0,
+   "rate": 0.002635474609725462,
+   "small_n": 23.0,
+   "small_rate": 0.002892581607498262
+  },
+  "SP3378": {
+   "n": 35.0,
+   "frauds": 0.0,
+   "rate": 0.002811172917040493,
+   "small_n": 22.0,
+   "small_rate": 0.002982974782732583
+  },
+  "SP3379": {
+   "n": 40.0,
+   "frauds": 1.0,
+   "rate": 0.022530055625336446,
+   "small_n": 25.0,
+   "small_rate": 0.002727291229926933
+  }
+ },
+ "overall_fraud_rate": 0.012650278126682218,
+ "queue": {
+  "threshold": 0.08040093253326519,
+  "bands": {
+   "critical": 0.08040093253326519,
+   "high": 0.024787953590122945,
+   "medium": 0.010507053246331102
+  },
+  "test_flags_per_month": {
+   "2026-07": 39,
+   "2026-08": 44,
+   "2026-09": 38
+  },
+  "test_top_queue_partners": {
+   "SP3118": 17,
+   "SP3286": 17,
+   "SP3160": 12,
+   "SP3129": 11,
+   "SP3319": 9,
+   "SP3318": 8,
+   "SP3232": 5,
+   "SP3300": 5
+  }
+ },
+ "weights": {
+  "catboost": 0.7,
+  "logreg": 0.3
+ },
+ "features": [
+  "claim_amount_inr",
+  "log_amount",
+  "amount_ratio",
+  "near_2000",
+  "dist_below_2000",
+  "small_claim",
+  "amount_le_500",
+  "days_since_purchase",
+  "warranty_fraction",
+  "outside_warranty",
+  "days_365_540",
+  "customer_prior_claims",
+  "photo_flag",
+  "partner_tenure_days",
+  "serial_valid",
+  "post_may",
+  "post_may_small",
+  "partner_n",
+  "partner_fraud_count",
+  "partner_rate",
+  "partner_small_n",
+  "partner_small_rate",
+  "partner_type",
+  "family"
+ ]
+}

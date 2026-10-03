@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kestrel Home – Warranty Claim Fraud Scorer</title>
+    <meta name="description" content="Kestrel Home Appliances warranty claim fraud detection and scoring tool for the investigation desk.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f1117;
+            --bg-secondary: #1a1d2e;
+            --bg-card: #1e2139;
+            --bg-input: #252845;
+            --border: #2d3154;
+            --text-primary: #e8eaed;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-orange: #f59e0b;
+            --accent-gradient: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            --glow-blue: 0 0 20px rgba(59, 130, 246, 0.15);
+            --glow-red: 0 0 20px rgba(239, 68, 68, 0.15);
+            --glow-green: 0 0 20px rgba(16, 185, 129, 0.15);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .bg-pattern {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 0 32px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 32px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 40px; height: 40px;
+            background: var(--accent-gradient);
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 20px;
+            box-shadow: var(--glow-blue);
+        }
+
+        .logo h1 {
+            font-size: 20px;
+            font-weight: 600;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo p {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .health-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 20px;
+            font-size: 12px;
+            color: var(--accent-green);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .health-badge:hover { background: rgba(16, 185, 129, 0.15); }
+
+        .health-dot {
+            width: 8px; height: 8px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Layout */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .main-grid { grid-template-columns: 1fr; }
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            border-color: rgba(59, 130, 246, 0.3);
+            box-shadow: var(--glow-blue);
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-title::before {
+            content: '';
+            width: 3px;
+            height: 16px;
+            background: var(--accent-gradient);
+            border-radius: 2px;
+        }
+
+        /* Form */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        label {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        input, select, textarea {
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 10px 12px;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 13px;
+            transition: var(--transition);
+            outline: none;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        textarea { resize: vertical; min-height: 60px; }
+
+        /* Buttons */
+        .btn {
+            padding: 10px 20px;
+            border-radius: var(--radius-sm);
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: var(--accent-gradient);
+            color: white;
+            box-shadow: var(--glow-blue);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-primary:active { transform: translateY(0); }
+
+        .btn-secondary {
+            background: var(--bg-input);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        /* Presets */
+        .presets {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .preset-btn {
+            padding: 6px 12px;
+            font-size: 11px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            background: var(--bg-input);
+            color: var(--text-secondary);
+            font-family: inherit;
+            transition: var(--transition);
+        }
+
+        .preset-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--text-primary);
+        }
+
+        .preset-btn.high-risk {
+            border-color: rgba(239, 68, 68, 0.3);
+            color: var(--accent-red);
+        }
+
+        .preset-btn.low-risk {
+            border-color: rgba(16, 185, 129, 0.3);
+            color: var(--accent-green);
+        }
+
+        /* Results */
+        .result-panel {
+            display: none;
+        }
+
+        .result-panel.visible { display: block; }
+
+        .score-display {
+            text-align: center;
+            padding: 28px 0;
+        }
+
+        .score-ring {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 16px;
+            position: relative;
+        }
+
+        .score-ring svg {
+            width: 100%;
+            height: 100%;
+            transform: rotate(-90deg);
+        }
+
+        .score-ring .bg-circle {
+            fill: none;
+            stroke: var(--bg-input);
+            stroke-width: 8;
+        }
+
+        .score-ring .score-circle {
+            fill: none;
+            stroke-width: 8;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 1s ease, stroke 0.5s ease;
+        }
+
+        .score-value {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-top: 8px;
+        }
+
+        .risk-LOW { background: rgba(16, 185, 129, 0.1); color: var(--accent-green); border: 1px solid rgba(16, 185, 129, 0.2); }
+        .risk-MEDIUM { background: rgba(245, 158, 11, 0.1); color: var(--accent-orange); border: 1px solid rgba(245, 158, 11, 0.2); }
+        .risk-HIGH { background: rgba(239, 68, 68, 0.1); color: var(--accent-red); border: 1px solid rgba(239, 68, 68, 0.2); }
+        .risk-CRITICAL { background: rgba(239, 68, 68, 0.15); color: #ff6b6b; border: 1px solid rgba(239, 68, 68, 0.3); animation: pulseRed 2s infinite; }
+
+        @keyframes pulseRed {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.2); }
+            50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+        }
+
+        .investigate-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px 20px;
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-weight: 600;
+            margin: 16px auto;
+            max-width: 300px;
+        }
+
+        .investigate-yes {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+        }
+
+        .investigate-no {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            color: var(--accent-green);
+        }
+
+        /* Reasons list */
+        .reasons-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .reasons-list li {
+            padding: 10px 14px;
+            background: var(--bg-input);
+            border-radius: var(--radius-sm);
+            margin-bottom: 8px;
+            font-size: 13px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.5;
+            border-left: 3px solid var(--accent-orange);
+        }
+
+        .reasons-list li::before {
+            content: '⚠';
+            flex-shrink: 0;
+            font-size: 14px;
+        }
+
+        .warnings-list li {
+            border-left-color: var(--accent-blue);
+        }
+
+        .warnings-list li::before { content: 'ℹ'; }
+
+        /* Batch upload */
+        .batch-section {
+            margin-top: 32px;
+        }
+
+        .drop-zone {
+            border: 2px dashed var(--border);
+            border-radius: var(--radius);
+            padding: 40px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: var(--transition);
+            background: var(--bg-secondary);
+        }
+
+        .drop-zone:hover, .drop-zone.drag-over {
+            border-color: var(--accent-blue);
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        .drop-zone p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        .drop-zone .icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        /* Batch results table */
+        .batch-results {
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        th {
+            background: var(--bg-input);
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        td {
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:hover td { background: rgba(59, 130, 246, 0.03); }
+
+        .score-cell {
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Loading */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .loading.visible { display: block; }
+
+        .spinner {
+            width: 36px;
+            height: 36px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent-blue);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 12px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 24px 0;
+            margin-top: 40px;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        .model-info {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-align: center;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">🔍</div>
+                <div>
+                    <h1>Kestrel Home</h1>
+                    <p>Warranty Claim Fraud Scorer</p>
+                </div>
+            </div>
+            <div class="health-badge" id="healthBadge" onclick="checkHealth()">
+                <div class="health-dot"></div>
+                <span id="healthText">Checking...</span>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <!-- Left: Input Form -->
+            <div class="card">
+                <div class="card-title">Score a Claim</div>
+
+                <div class="presets">
+                    <button class="preset-btn high-risk" onclick="fillHighRisk()">⚡ High-Risk Example</button>
+                    <button class="preset-btn low-risk" onclick="fillClean()">✓ Clean Example</button>
+                    <button class="preset-btn" onclick="clearForm()">↻ Clear</button>
+                </div>
+
+                <form id="claimForm" onsubmit="submitClaim(event)">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="claim_id">Claim ID</label>
+                            <input type="text" id="claim_id" value="WC999999" />
+                        </div>
+                        <div class="form-group">
+                            <label for="submitted_at">Submitted At (IST)</label>
+                            <input type="text" id="submitted_at" value="2026-08-15 10:30" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="partner_id">Partner ID</label>
+                            <input type="text" id="partner_id" value="SP3160" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="sku">SKU</label>
+                            <select id="sku" required>
+                                <option value="KH-AF-01">KH-AF-01 (Air Fryer)</option>
+                                <option value="KH-AF-02">KH-AF-02 (Air Fryer)</option>
+                                <option value="KH-AF-03" selected>KH-AF-03 (Air Fryer)</option>
+                                <option value="KH-MG-01">KH-MG-01 (Mixer Grinder)</option>
+                                <option value="KH-MG-02">KH-MG-02 (Mixer Grinder)</option>
+                                <option value="KH-MG-03">KH-MG-03 (Mixer Grinder)</option>
+                                <option value="KH-WP-01">KH-WP-01 (Water Purifier)</option>
+                                <option value="KH-WP-02">KH-WP-02 (Water Purifier)</option>
+                                <option value="KH-WP-03">KH-WP-03 (Water Purifier)</option>
+                                <option value="KH-RV-01">KH-RV-01 (Robot Vacuum)</option>
+                                <option value="KH-RV-02">KH-RV-02 (Robot Vacuum)</option>
+                                <option value="KH-RV-03">KH-RV-03 (Robot Vacuum)</option>
+                                <option value="KH-IC-01">KH-IC-01 (Induction Cooktop)</option>
+                                <option value="KH-IC-02">KH-IC-02 (Induction Cooktop)</option>
+                                <option value="KH-IC-03">KH-IC-03 (Induction Cooktop)</option>
+                                <option value="KH-CF-01">KH-CF-01 (Ceiling Fan)</option>
+                                <option value="KH-CF-02">KH-CF-02 (Ceiling Fan)</option>
+                                <option value="KH-CF-03">KH-CF-03 (Ceiling Fan)</option>
+                                <option value="KH-RH-01">KH-RH-01 (Room Heater)</option>
+                                <option value="KH-RH-02">KH-RH-02 (Room Heater)</option>
+                                <option value="KH-RH-03">KH-RH-03 (Room Heater)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="product_serial">Product Serial</label>
+                            <input type="text" id="product_serial" value="KH123456789" />
+                        </div>
+                        <div class="form-group">
+                            <label for="days_since_purchase">Days Since Purchase</label>
+                            <input type="number" id="days_since_purchase" value="180" min="0" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="claim_amount_inr">Claim Amount (₹)</label>
+                            <input type="number" id="claim_amount_inr" value="1975" min="1" step="0.01" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="customer_prior_claims">Prior Claims</label>
+                            <input type="number" id="customer_prior_claims" value="2" min="0" />
+                        </div>
+                        <div class="form-group">
+                            <label for="photo_attached">Photo Attached</label>
+                            <select id="photo_attached">
+                                <option value="Y">Yes</option>
+                                <option value="N" selected>No</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="partner_inspected">Partner Inspected</label>
+                            <select id="partner_inspected">
+                                <option value="Y">Yes</option>
+                                <option value="N" selected>No</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="source">Source</label>
+                            <select id="source">
+                                <option value="crm" selected>CRM</option>
+                                <option value="legacy_zoho">Legacy Zoho</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="claim_description">Claim Description</label>
+                            <input type="text" id="claim_description" value="motor not running" />
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="inspector_note">Inspector Note</label>
+                            <input type="text" id="inspector_note" value="" />
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="submit" class="btn btn-primary" id="scoreBtn">
+                            🎯 Score Claim
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="clearForm()">
+                            Clear
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Right: Results -->
+            <div>
+                <div class="card">
+                    <div class="card-title">Score Result</div>
+
+                    <div class="loading" id="loading">
+                        <div class="spinner"></div>
+                        <p style="color: var(--text-secondary);">Scoring claim...</p>
+                    </div>
+
+                    <div class="result-panel" id="resultPanel">
+                        <div class="score-display">
+                            <div class="score-ring">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg-circle" cx="60" cy="60" r="50"/>
+                                    <circle class="score-circle" id="scoreCircle"
+                                            cx="60" cy="60" r="50"
+                                            stroke-dasharray="314.16"
+                                            stroke-dashoffset="314.16"/>
+                                </svg>
+                                <div class="score-value" id="scoreValue">–</div>
+                            </div>
+                            <div id="riskBadge" class="risk-badge risk-LOW">LOW</div>
+                        </div>
+
+                        <div id="investigateBadge" class="investigate-badge investigate-no">
+                            <span id="investigateText">No investigation needed</span>
+                        </div>
+
+                        <div style="margin-top: 20px;">
+                            <h3 style="font-size: 13px; color: var(--text-secondary); margin-bottom: 10px;">
+                                TOP REASONS
+                            </h3>
+                            <ul class="reasons-list" id="reasonsList"></ul>
+                        </div>
+
+                        <div id="warningsSection" style="margin-top: 16px; display:none;">
+                            <h3 style="font-size: 13px; color: var(--text-secondary); margin-bottom: 10px;">
+                                WARNINGS
+                            </h3>
+                            <ul class="reasons-list warnings-list" id="warningsList"></ul>
+                        </div>
+
+                        <p class="model-info" id="modelInfo"></p>
+                    </div>
+
+                    <div id="emptyState" style="text-align: center; padding: 60px 20px; color: var(--text-muted);">
+                        <div style="font-size: 48px; margin-bottom: 12px; opacity: 0.3;">🎯</div>
+                        <p>Submit a claim to see the fraud score</p>
+                    </div>
+                </div>
+
+                <!-- Batch Upload -->
+                <div class="card batch-section">
+                    <div class="card-title">Batch CSV Upload</div>
+                    <div class="drop-zone" id="dropZone" onclick="document.getElementById('csvFile').click()">
+                        <div class="icon">📄</div>
+                        <p>Drop a CSV file here or click to upload</p>
+                        <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+                            Same columns as the single claim form
+                        </p>
+                        <input type="file" id="csvFile" accept=".csv" style="display:none" onchange="uploadBatch(event)">
+                    </div>
+                    <div class="batch-results" id="batchResults"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Kestrel Home – Warranty Claim Fraud Scorer v1.0</p>
+            <p style="margin-top: 4px;">Investigation desk tool. Not an automatic reject — use as a prioritisation list.</p>
+        </footer>
+    </div>
+
+    <script>
+        const API_BASE = '';
+
+        // Health check
+        async function checkHealth() {
+            try {
+                const res = await fetch(`${API_BASE}/health`);
+                const data = await res.json();
+                const badge = document.getElementById('healthBadge');
+                const text = document.getElementById('healthText');
+                if (data.status === 'healthy') {
+                    text.textContent = `Model: ${data.model_type || 'loaded'}`;
+                    badge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+                } else {
+                    text.textContent = 'Unhealthy';
+                    badge.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+                    badge.style.color = 'var(--accent-red)';
+                }
+            } catch (e) {
+                document.getElementById('healthText').textContent = 'Offline';
+            }
+        }
+
+        // Score single claim
+        async function submitClaim(e) {
+            e.preventDefault();
+
+            const data = {
+                claim_id: document.getElementById('claim_id').value,
+                submitted_at: document.getElementById('submitted_at').value,
+                partner_id: document.getElementById('partner_id').value,
+                sku: document.getElementById('sku').value,
+                product_serial: document.getElementById('product_serial').value,
+                days_since_purchase: parseInt(document.getElementById('days_since_purchase').value),
+                claim_amount_inr: parseFloat(document.getElementById('claim_amount_inr').value),
+                photo_attached: document.getElementById('photo_attached').value,
+                partner_inspected: document.getElementById('partner_inspected').value,
+                claim_description: document.getElementById('claim_description').value,
+                inspector_note: document.getElementById('inspector_note').value,
+                customer_prior_claims: parseInt(document.getElementById('customer_prior_claims').value),
+                source: document.getElementById('source').value,
+            };
+
+            document.getElementById('loading').classList.add('visible');
+            document.getElementById('resultPanel').classList.remove('visible');
+            document.getElementById('emptyState').style.display = 'none';
+
+            try {
+                const res = await fetch(`${API_BASE}/score`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data),
+                });
+
+                if (!res.ok) {
+                    const err = await res.json();
+                    throw new Error(err.detail || `HTTP ${res.status}`);
+                }
+
+                const result = await res.json();
+                displayResult(result);
+            } catch (err) {
+                alert(`Error: ${err.message}`);
+            } finally {
+                document.getElementById('loading').classList.remove('visible');
+            }
+        }
+
+        function displayResult(result) {
+            document.getElementById('resultPanel').classList.add('visible');
+
+            // Score ring
+            const score = result.score;
+            const circle = document.getElementById('scoreCircle');
+            const circumference = 314.16;
+            const offset = circumference * (1 - score);
+            circle.style.strokeDashoffset = offset;
+
+            // Color based on risk
+            const colors = {
+                LOW: '#10b981',
+                MEDIUM: '#f59e0b',
+                HIGH: '#ef4444',
+                CRITICAL: '#ff4444',
+            };
+            circle.style.stroke = colors[result.risk_band] || colors.LOW;
+
+            document.getElementById('scoreValue').textContent = (score * 100).toFixed(1) + '%';
+            document.getElementById('scoreValue').style.color = colors[result.risk_band];
+
+            // Risk badge
+            const badge = document.getElementById('riskBadge');
+            badge.textContent = result.risk_band;
+            badge.className = `risk-badge risk-${result.risk_band}`;
+
+            // Investigate
+            const inv = document.getElementById('investigateBadge');
+            if (result.investigate) {
+                inv.className = 'investigate-badge investigate-yes';
+                document.getElementById('investigateText').textContent =
+                    '🚨 Queue for investigation (top-40 monthly)';
+            } else {
+                inv.className = 'investigate-badge investigate-no';
+                document.getElementById('investigateText').textContent =
+                    '✓ Below investigation threshold';
+            }
+
+            // Reasons
+            const list = document.getElementById('reasonsList');
+            list.innerHTML = '';
+            (result.reasons || []).forEach(r => {
+                const li = document.createElement('li');
+                li.textContent = r;
+                list.appendChild(li);
+            });
+
+            // Warnings
+            const warnSection = document.getElementById('warningsSection');
+            const warnList = document.getElementById('warningsList');
+            warnList.innerHTML = '';
+            if (result.warnings && result.warnings.length > 0) {
+                warnSection.style.display = 'block';
+                result.warnings.forEach(w => {
+                    const li = document.createElement('li');
+                    li.textContent = w;
+                    warnList.appendChild(li);
+                });
+            } else {
+                warnSection.style.display = 'none';
+            }
+
+            // Model info
+            document.getElementById('modelInfo').textContent =
+                `Model: ${result.model_version} | Claim: ${result.claim_id}`;
+        }
+
+        // Presets
+        function fillHighRisk() {
+            document.getElementById('claim_id').value = 'WC999901';
+            document.getElementById('submitted_at').value = '2026-08-15 10:30';
+            document.getElementById('partner_id').value = 'SP3160';
+            document.getElementById('sku').value = 'KH-AF-03';
+            document.getElementById('product_serial').value = 'KH123456789';
+            document.getElementById('days_since_purchase').value = '180';
+            document.getElementById('claim_amount_inr').value = '1975';
+            document.getElementById('photo_attached').value = 'N';
+            document.getElementById('partner_inspected').value = 'N';
+            document.getElementById('claim_description').value = 'motor not running';
+            document.getElementById('inspector_note').value = '';
+            document.getElementById('customer_prior_claims').value = '3';
+            document.getElementById('source').value = 'crm';
+        }
+
+        function fillClean() {
+            document.getElementById('claim_id').value = 'WC999902';
+            document.getElementById('submitted_at').value = '2026-08-12 14:00';
+            document.getElementById('partner_id').value = 'SP3022';
+            document.getElementById('sku').value = 'KH-RV-03';
+            document.getElementById('product_serial').value = 'KH987654321';
+            document.getElementById('days_since_purchase').value = '45';
+            document.getElementById('claim_amount_inr').value = '5200';
+            document.getElementById('photo_attached').value = 'Y';
+            document.getElementById('partner_inspected').value = 'Y';
+            document.getElementById('claim_description').value = 'blade jammed';
+            document.getElementById('inspector_note').value = 'Unit inspected, fault confirmed';
+            document.getElementById('customer_prior_claims').value = '0';
+            document.getElementById('source').value = 'crm';
+        }
+
+        function clearForm() {
+            document.getElementById('claimForm').reset();
+            document.getElementById('resultPanel').classList.remove('visible');
+            document.getElementById('emptyState').style.display = 'block';
+        }
+
+        // Batch upload
+        const dropZone = document.getElementById('dropZone');
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('drag-over');
+        });
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('drag-over');
+        });
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('drag-over');
+            const file = e.dataTransfer.files[0];
+            if (file && file.name.endsWith('.csv')) {
+                uploadBatchFile(file);
+            }
+        });
+
+        function uploadBatch(e) {
+            const file = e.target.files[0];
+            if (file) uploadBatchFile(file);
+        }
+
+        async function uploadBatchFile(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            document.getElementById('batchResults').innerHTML =
+                '<div class="loading visible"><div class="spinner"></div><p style="color:var(--text-secondary)">Scoring batch...</p></div>';
+
+            try {
+                const res = await fetch(`${API_BASE}/batch`, {
+                    method: 'POST',
+                    body: formData,
+                });
+                const results = await res.json();
+                displayBatchResults(results);
+            } catch (err) {
+                document.getElementById('batchResults').innerHTML =
+                    `<p style="color:var(--accent-red)">Error: ${err.message}</p>`;
+            }
+        }
+
+        function displayBatchResults(results) {
+            if (!Array.isArray(results) || results.length === 0) {
+                document.getElementById('batchResults').innerHTML =
+                    '<p style="color:var(--text-muted)">No results returned.</p>';
+                return;
+            }
+
+            // Sort by score desc
+            results.sort((a, b) => (b.score || 0) - (a.score || 0));
+
+            let html = '<table><thead><tr>';
+            html += '<th>Claim ID</th><th>Score</th><th>Risk</th><th>Investigate</th><th>Top Reason</th>';
+            html += '</tr></thead><tbody>';
+
+            results.forEach(r => {
+                if (r.error) {
+                    html += `<tr><td>${r.claim_id}</td><td colspan="4" style="color:var(--accent-red)">${r.error}</td></tr>`;
+                    return;
+                }
+                const color = {
+                    LOW: 'var(--accent-green)',
+                    MEDIUM: 'var(--accent-orange)',
+                    HIGH: 'var(--accent-red)',
+                    CRITICAL: '#ff4444',
+                }[r.risk_band] || 'var(--text-primary)';
+
+                html += `<tr>`;
+                html += `<td>${r.claim_id}</td>`;
+                html += `<td class="score-cell" style="color:${color}">${(r.score * 100).toFixed(1)}%</td>`;
+                html += `<td><span class="risk-badge risk-${r.risk_band}" style="font-size:10px;padding:2px 8px">${r.risk_band}</span></td>`;
+                html += `<td>${r.investigate ? '🚨 Yes' : '✓ No'}</td>`;
+                html += `<td style="font-size:11px">${(r.reasons || [])[0] || '–'}</td>`;
+                html += `</tr>`;
+            });
+
+            html += '</tbody></table>';
+            document.getElementById('batchResults').innerHTML = html;
+        }
+
+        // Init
+        checkHealth();
+    </script>
+</body>
+</html>
