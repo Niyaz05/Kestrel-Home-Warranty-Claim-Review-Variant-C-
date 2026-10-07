@@ -3,7 +3,7 @@
 Ranks warranty claims by fraud risk so the investigation desk (40 reviews a month) looks at the right ones.
 A FastAPI service plus one screen. Needs no data folder and no API key to run.
 
-**Read first:** `memo_to_ritu.md` (decision, number, rupees, next week) and `EVIDENCE.md` (how we know, and how often it fails).
+**Read first:** `memo_to_ritu.md` (decision, number, rupees, next week), `EVIDENCE.md` (how we know, and how often it fails), `COSTS.md` (the rupee arithmetic) and `REFRESH.md` (how it is kept current).
 
 ## Run it (clean machine)
 
@@ -38,7 +38,16 @@ python -m pytest tests -q
 ```
 
 Passes without the client data (one test that compares ids with `sample_submission.csv` skips itself when `data/` is absent).
-It checks: predictions file shape, API vs the offline pipeline on fixed claims, bad input, unknown outlet/SKU, injected text, batch upload, and leakage guards on the outlet-history features.
+It checks: predictions file shape, API vs the offline pipeline on fixed claims, bad input, unknown outlet/SKU, injected text, batch upload, leakage guards on the outlet-history features, and the refresh tool's month windows and live-model scoring.
+
+## Monthly refresh (needs the client's `data/` folder)
+
+```bash
+python -m src.refresh              # dry run: backtest, check the live model, staged retrain, gates -> outputs/refresh_report.md
+python -m src.refresh --promote    # same, then install the new model and predictions.csv if no hard gate failed
+```
+
+Run it on the first working day of each month. Procedure, gates, rollback and off-cycle triggers: `REFRESH.md`.
 
 ## Retrain and rebuild the documents (needs the client's `data/` folder)
 
@@ -59,6 +68,9 @@ Retrain on the first working day of every month. A model trained before the 1 Ma
 | `src/train.py` | Validation, final model, snapshot, predictions, results JSON |
 | `src/app.py`, `templates/index.html` | Service and screen |
 | `model/` | CatBoost + logistic regression, `reference.json` (outlet/product tables and history snapshot), `golden.json` (parity test) |
+| `src/refresh.py`, `REFRESH.md`, `docs/` | Monthly refresh tool, its runbook, and three real dry-run reports (stale model caught, June reproduced, bad batch blocked) |
+| `COSTS.md` | Cost arithmetic: worked June example, where reviews stop paying, break-even precision, run costs |
+| `src/bench.py` | Measures per-prediction time (`outputs/latency.json`) |
 | `EVIDENCE.md`, `memo_to_ritu.md`, `DECISIONS.md`, `recording_script.md`, `submission-form.md` | Deliverables (generated from `outputs/evaluation_results.json`) |
 
 ## Honest limits

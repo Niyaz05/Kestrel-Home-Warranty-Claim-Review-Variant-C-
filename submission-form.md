@@ -1,9 +1,10 @@
 # Submission form: Kestrel Home, Warranty Claim Review (Variant C)
 
+
 **1. What did you build, and what business outcome does it move? State the number and the money.**
 A review-queue ranking (CatBoost + logistic regression on claim facts and each outlet's as-of fraud history) with an API and a screen. It picks the 40 claims a month the investigation desk should review.
 In June 2026 its 40 picks held 15 real frauds worth Rs 21,272, about Rs 532 stopped per claim checked (38% precision vs 3.1% random).
-Net of Rs 380 goodwill it is Rs 11,772 for June; with Rs 260 per review also charged, Rs 1,372. In May a stale model found 0 of 40, so the number is conditional on monthly retraining.
+Net of Rs 380 goodwill it is Rs 11,772 for June; with Rs 260 per review also charged, Rs 1,372. In May a stale model found 0 of 40, so the number is conditional on monthly retraining (procedure and checks: REFRESH.md). Full cost arithmetic, including how deep to work the list and break-even precision: COSTS.md.
 
 **2. What score do you expect predictions.csv to get on the hidden outcomes, on which metric, and why that metric? How did you estimate it?**
 Precision in the top 40 per month: about 25% (plausible 8-45%), i.e. about 10 frauds per 40 reviews; ROC-AUC about 0.85 (plausible 0.65-0.95).
@@ -31,18 +32,22 @@ Free text and inspection fields (no signal / regime-dependent), serial repeat co
 The injected instructions in the free text; the May-fold failure showing monthly retraining is required; the outlet-level rule (no model: outlets with 3+ confirmed frauds at month start) that covered 45% of June's fraud but nothing in May; a parity test that the API and predictions.csv agree; documents generated from results.
 
 **8. What did you use AI for?**
-I have used Claude Sonnet for building this project and ChatGPT Go to clear up any doubts I had. IDE used : Google Antigravity. 
+I have used Claude Sonnet for building this project and ChatGPT Go to clear up any doubts I had. IDE used : Google Antigravity.  Recording: (https://drive.google.com/file/d/1DTaOPwxT1LdcCsMSJQQ2vfInfkh9M68k/view?usp=sharing)
 
-**9. Public Google Drive link:** [link]
+**9. Public Google Drive link:** (https://drive.google.com/file/d/1DTaOPwxT1LdcCsMSJQQ2vfInfkh9M68k/view?usp=sharing)
 
 **10. Someone picks this up on Monday and you are unreachable. The three things they need.**
 (1) `pip install -r requirements.txt`, then `python -m uvicorn src.app:app`; tests: `python -m pytest tests`. Retrain with the client's `data/` folder: `python -m src.train && python -m src.make_docs`.
-(2) Retrain on the first working day of each month with newly decided outcomes; a model older than a month missed all fraud in May.
+(2) Refresh on the first working day of each month: update `data/`, run `python -m src.refresh`, read `outputs/refresh_report.md`, then `--promote` if the gates pass (REFRESH.md). A model older than a month missed all fraud in May, and the refresh report checks the live model against the month just ended.
 (3) The list is a ranking for 40 human reviews a month, not an auto-reject; check thinly evidenced outlets by hand before acting.
 
-**11. Honest hours spent:** 5
+**11. Honest hours spent:** 6
 
-**12. GitHub repo link:** https://github.com/Niyaz05/Kestrel-Home-Warranty-Claim-Review-Variant-C-
+**12. GitHub repo link:** https://github.com/Niyaz05/Kestrel-Home-Warranty-Claim-Review-Variant-C- 
+
+
 
 **13. What does one prediction cost, and what would a month cost (about 750 claims)?**
-No paid calls. A prediction is a CatBoost and a logistic regression evaluation on one row, a few milliseconds of CPU: Rs 0 per prediction. 750 x Rs 0 = Rs 0 a month, excluding the cost of running the server. If an LLM were added later for wording, the cost would be tokens per call x price per token x 750; it is not in this product.
+No paid calls: the product uses no external model or API, so the fee is Rs 0 per prediction. 750 claims x Rs 0 = Rs 0 a month in fees.
+Compute: a CatBoost and a logistic regression evaluation on one row; measured median about 16 ms per claim through the API on the build machine (a 750-claim batch took about 9 s), and the monthly refresh (retrain plus checks) about 10 s when timed.
+Not known and so not included: hosting (one small CPU server or an existing machine) and about 1 hour a month of analyst time to run the refresh (my estimate) at Kestrel's hourly rate. If an LLM were added later for wording, the cost would be tokens per call x price per token x 750; it is not in this product. Full arithmetic: COSTS.md.
